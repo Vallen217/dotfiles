@@ -1,0 +1,20 @@
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <linearGradient id="a" x2="1" gradientTransform="matrix(26.8851 -2.2166 2.2166 26.8851 9.09851 23.5689)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#00d6ec" offset="0"/>
+  <stop stop-color="#247be4" offset="1"/>
+ </linearGradient>
+ <linearGradient id="b" x2="1" gradientTransform="matrix(17.9115 33.7137 -33.7137 17.9115 26.2235 2.90447)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#257ce6" offset="0"/>
+  <stop stop-color="#1cdf93" offset="1"/>
+ </linearGradient>
+ <linearGradient id="c" x2="1" gradientTransform="matrix(25.8761 27.668 -27.668 25.8761 -268.477 272.709)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#450002" offset="0"/>
+  <stop stop-color="#1f1737" offset=".49"/>
+  <stop stop-color="#131f48" offset="1"/>
+ </linearGradient>
+ <path d="m45.915 18.299-4.558 13.943-18.635-2.815 4.619-14.843z" fill="#237be5"/>
+ <path d="m3.282 8.691 23.015-6.704 19.797 35.082-10.278 8.601-21.943-5.166z" fill="url(#a)"/>
+ <path d="m2.388 27.818v17.697l43.661-8.446-19.752-35.082z" fill="url(#b)"/>
+ <path d="m10.17 10.14h27.783v27.853h-27.783z" fill="url(#c)"/>
+ <path d="m23.408 32.791h-10.457v1.931h10.457zm5.666-18.828c1.088 0 2.056.254 2.903.762s1.517 1.2 2.011 2.077l-1.734 1.247c-.37-.612-.816-1.085-1.338-1.42-.521-.335-1.136-.502-1.842-.502-.516 0-.991.092-1.422.277-.432.185-.808.444-1.128.779s-.569.733-.749 1.195c-.179.461-.269.969-.269 1.523s.09 1.059.269 1.515c.18.455.429.848.749 1.177s.696.585 1.128.77c.431.185.906.277 1.422.277.706 0 1.321-.167 1.842-.502.522-.335.968-.808 1.338-1.42l1.734 1.247c-.494.877-1.164 1.569-2.011 2.077s-1.815.762-2.903.762c-.831 0-1.605-.15-2.323-.45s-1.341-.716-1.868-1.247c-.527-.53-.945-1.157-1.254-1.878-.308-.721-.463-1.503-.463-2.345 0-.843.155-1.625.463-2.346.309-.721.727-1.347 1.254-1.878s1.15-.947 1.868-1.247 1.492-.45 2.323-.45zm-6.513 11.633h-2.441l-.622-1.489h-4.544l-.623 1.489h-2.44l4.964-11.633h.741zm-6.816-3.41h2.945l-1.464-3.86z" fill="#ebebeb"/>
+</svg>
