@@ -1,4 +1,4 @@
-# Eidolon color-palette
+# Eidolon color palette
 
 ## Background
 
