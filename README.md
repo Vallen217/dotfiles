@@ -5,11 +5,12 @@
   <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=da587d&style=for-the-badge&logo=codecov"></a>
   <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=7fdca9&style=for-the-badge&logo=jfrog-bintray"></a>
 </p>
-![desktop](https://github.com/Vallen217/dotfiles/assets/94763660/b03d2a23-5e6a-4a13-b04d-05fd3a3652b8)
-![neovim_1](https://github.com/Vallen217/dotfiles/assets/94763660/5f24977a-c8bc-4c1c-96a5-46fed93254b7)
-![neovim_2](https://github.com/Vallen217/dotfiles/assets/94763660/290517f0-1d15-4987-aea2-f54f9be1af87)
-![neovim_3](https://github.com/Vallen217/dotfiles/assets/94763660/eb40717b-2043-465e-a394-807a33dbcf39)
-![terminals](https://github.com/Vallen217/dotfiles/assets/94763660/25f97de0-05ba-4d7f-9ee3-985df978cbf5)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_3.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
 
 # Applications/Tools
 
