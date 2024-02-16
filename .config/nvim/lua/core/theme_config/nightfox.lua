@@ -42,7 +42,7 @@ require("nightfox").setup({
 		nightfox = {
 			bg0 = "#12121f",
 			bg1 = "#12121f",
-			bg2 = "#222237",
+			bg2 = "#222236",
 			bg3 = "#24243c",
 			bg4 = "#63658b",
 			fg0 = "#d4d7ff",
@@ -53,14 +53,14 @@ require("nightfox").setup({
 			sel1 = "#13151e",
 			comment = "#63658b",
 			black = "#222236",
-			red = "#d95177",
-			green = "#7bdba6",
-			yellow = "#65dedc", -- cyan
-			blue = "#6d98e8",
-			magenta = "#837dd7", -- purple
-			cyan = "#fcf295", -- yellow
+			red = "#da587d",
+			magenta = "#8983d8", -- purple
+			blue = "#729ce9",
+			yellow = "#78e2e1", -- cyan
+			green = "#7fdca9",
+			cyan = "#fcf39c", -- yellow
+			orange = "#e3b878",
 			white = "#d4d7ff",
-			orange = "#e3b56f",
 			pink = "#ff007d",
 		},
 	},
