@@ -2,10 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=729ce9&style=for-the-badge&logo=starship"></a>
-  d
   <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=da587d&style=for-the-badge&logo=codecov"></a>
   <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=7fdca9&style=for-the-badge&logo=jfrog-bintray"></a>
-    <a href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPL-3.0.svg?color=fdf5b0style=for-the-badge&logo=mitsubishi"></a>
 </p>
 
 # Applications/Tools
