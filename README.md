@@ -13,6 +13,7 @@
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
 
 # Neovim configuration
+
 - [.config/nvim](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)
 
 # Applications/Tools
@@ -36,9 +37,8 @@
 
 ## Customization
 
-- Color Palette: [Eidolon](https://github.com/Vallen217/dotfiles/blob/main/color_palette.md)
 - Font: [ShureTechMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
 - Icons: [Kora](https://github.com/bikass/kora)
 - Cursor Theme: [Catppouccin](https://github.com/catppuccin/cursors)
-
-
+- Color Palette: [Eidolon](https://github.com/Vallen217/dotfiles/blob/main/color_palette.md)
+- Wallpaper: [shards](https://github.com/Vallen217/dotfiles/blob/main/wallpaper/shards.png)
