@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 
 <p align="center">
   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=729ce9&style=for-the-badge&logo=starship"></a>
@@ -7,10 +7,12 @@
 </p>
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
+
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_3.png?raw=true)
+
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
+
+# [Neovim configuration](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)
 
 # Applications/Tools
 
@@ -37,3 +39,5 @@
 - Font: [ShureTechMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
 - Icons: [Kora](https://github.com/bikass/kora)
 - Cursor Theme: [Catppouccin](https://github.com/catppuccin/cursors)
+
+
