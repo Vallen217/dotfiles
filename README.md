@@ -1,14 +1,15 @@
 # Dotfiles
 
 <p align="center">
-  <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=729ce9&style=for-the-badge&logo=starship&labelColor=12121f"></a>
+   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=729ce9&style=for-the-badge&logo=starship&labelColor=12121f"></a>
   <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=da587d&style=for-the-badge&logo=codecov&labelColor=12121f"></a>
-  <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=7fdca9&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a>
+  <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=7fdca9&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a>  
+  <a href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Vallen217/dotfiles?color=78e2e1&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a></a>
 </p>
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
 
