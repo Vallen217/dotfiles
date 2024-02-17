@@ -167,6 +167,10 @@ return require("packer").startup(function(use)
 			require("toggleterm").setup()
 		end
 	})
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function() vim.fn["mkdp#util#install"]() end,
+	})
 	use("kelly-lin/ranger.nvim")
 	use("folke/flash.nvim")      -- code navigation
 	use("goolord/alpha-nvim")    -- startup menu
