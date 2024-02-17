@@ -12,7 +12,8 @@
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
 
-# [Neovim configuration](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)
+# Neovim configuration
+- [.config/nvim](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)
 
 # Applications/Tools
 
