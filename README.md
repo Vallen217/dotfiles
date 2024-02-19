@@ -11,13 +11,15 @@
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/misc.png?raw=true)
 
 # Neovim configuration
 
 - [.config/nvim](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)
 
 # Applications/Tools
+
+Screenshots of almost everything as well as their respective links can be found [here](https://github.com/Vallen217/dotfiles/tree/main/screenshots)
 
 ## Passive
 
