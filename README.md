@@ -40,7 +40,9 @@ Screenshots of almost everything as well as their respective links can be found 
 
 ## Customization
 
-- Font: [ShureTechMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
+- Font: ShureTechMono Nerd Font
+    * [Website](https://www.nerdfonts.com/)
+    * [Zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
 - Icons: [Kora](https://github.com/bikass/kora)
 - Cursor Theme: [Catppouccin](https://github.com/catppuccin/cursors)
 - Color Palette: [Eidolon](https://github.com/Vallen217/dotfiles/blob/main/color_palette.md)
