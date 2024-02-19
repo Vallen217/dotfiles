@@ -8,9 +8,9 @@
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_3.png?raw=true)
 
-### [Kitty](https://github.com/kovidgoyal/kitty) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/kitty/kitty.conf)\) terminals running: [neofetch](https://github.com/dylanaraps/neofetch) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/neofetch/config.conf)\), [ranger](https://github.com/ranger/ranger) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/ranger)\), and [bottom](https://github.com/ClementTsang/bottom/bottom.toml) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/bottom/bottom.toml)\)
+### [Kitty](https://github.com/kovidgoyal/kitty) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/kitty/kitty.conf)\) terminals running: [neofetch](https://github.com/dylanaraps/neofetch) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/neofetch/config.conf)\) and [bottom](https://github.com/ClementTsang/bottom/bottom.toml) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/bottom/bottom.toml)\)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/misc.png?raw=true)
 
 ### [Dunst](https://github.com/dunst-project/dunst) notifications \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/dunst)\)
 
