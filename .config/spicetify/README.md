@@ -1,4 +1,5 @@
 # [Spicetify](https://github.com/spicetify)
+
 - Theme: eidolon
 - Color-scheme: ghost
 
@@ -7,19 +8,23 @@
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/spicetify_ghost_2.png?raw=true)
 
 ## Usage
+
 1. Follow the installation instructions from [Spicetify](https://spicetify.app/docs/getting-started)
 
-2. clone the directory containing the `color.ini` and `user.css` files:
+2. clone the spicetify-eidolon repository:
+
 ```
-git clone https://github.com/Vallen217/dotfiles/tree/main/.config/spicetify/Themes/eidolon
+git clone https://github.com/Vallen217/spicetify-eidolon
 ```
 
 3. Place it into your spicetify config directory (`$HOME/.config/spicetify` for Linux):
+
 ```
-mv <path_to_clone> <path_to_spicetify_config>/Themes/
+cp -r <path_to_clone>/spicetify-eidolon/eidolon <path_to_spicetify_config>/Themes/
 ```
 
 4. Set your new spicetify theme:
+
 ```
 spicetify config current_theme eidolon
 spicetify config color_scheme ghost
