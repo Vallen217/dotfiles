@@ -4,155 +4,55 @@
 	:windowtype "normal"
 	:wm-ignore true
 	:geometry (geometry
-		:width "60%"
-		:height "60%")
-	("Testing")
+		:x "-2.5%"
+		:y "5%"
+		:width "20%"
+		:height "10%"
+		:anchor "top center"
+	)
+	(powermenu_layout)
 )
 
 (defwidget powermenu_layout []
-	(box :class "layout-box"
-		:space-evenly false
-		:orientation "vertical"
-		:style "background-image: url('./wallpaper')"
-		(box
-			:valign "start"
-			:space-evenly false
-			:spacing 25
-			(_sundial)
-			(_battery
-				:status {EWW_BATTERY.BAT0.status}
-				:battery {EWW_BATTERY.BAT0.capacity}
-				:charge "" :one ""
-				:two "" :three ""
-				:four "" :five ""
-				:six "" :seven ""
-			)
-			(_network
-				:strength net :offline ""
-				:excellent "" :good ""
-                :okay "" :slow ""
-			)
-			(label :class "sep"
-				:text "|"
-				
-			)
-			(button :class "close-btn" ""
-				:onclick "eww close powermenu"
-			)
-		)
-		(box
-			:space evenly false
-			:hexpand true
-			:vexpand true
-			(box :class "tm-box"
-				:spacing 15
-				:space-evenly false
-				:halign "start"
-				:valign "end"
-				(label :text "")
-				(label :text "${time.hour} ${time.min}")
-			)
-			(_buttons
-				:shutdown "poweroff" :reboot "reboot"
-                :logout "loginctl kill-session self"
-                :shutdown_icon "" :reboot_icon ""
-				:logout_icon ""
-			)
+	(box :class "powermenu_layout-box"
+		(_powermenu
+			:lockscreen "$HOME/.config/scripts/system/lock.sh"
+			:suspend "systemctl suspend"
+			:logout "loginctl kill-session self"
+			:reboot "systemctl reboot"
+			:shutdown "systemctl shutdown"
+			:lockscreen_icon ""
+			:suspend_icon "󰖔"
+			:logout_icon "󰍃"
+			:reboot_icon "󰜉"
+			:shutdown_icon "󰐦"
 		)
 	)
 )
 
-(defwidget _buttons [
-	shutdown shutdown_icon
-	reboot reboot_icon
+(defwidget _powermenu [
+	lockscreen lockscreen_icon
+	suspend suspend_icon
 	logout logout_icon
+	reboot reboot_icon
+	shutdown shutdown_icon
 	]
-	(box :class "btns-box"
-		:spacing 5
+	(box :class "power-box"
+		:spacing 8
 		:vexpand true
 		:hexpand true
 		:valign "end"
 		:halign "end"
-		:space-evenly false
-		(button :onclick shutdown shutdown_icon)
-		(button :onclick reboot reboot_icon)
-		(button :onclick logout logout_icon)
+		:space-evenly true
+		(button :class "lockscreen_button"
+			:onclick "$HOME/eww/target/release/eww close powermenu && ${lockscreen}" lockscreen_icon)
+		(button :class "suspend_button"
+			:onclick "$HOME/eww/target/release/eww close powermenu && ${suspend} ; ${lockscreen}" suspend_icon)
+		(button :class "logout_button"
+			:onclick "$HOME/eww/target/release/eww close powermenu && ${logout}" logout_icon)
+		(button :class "reboot_button"
+			:onclick "$HOME/eww/target/release/eww close powermenu && ${reboot}" reboot_icon)
+		(button :class "shutdown_button"
+			:onclick "/$HOME/eww/target/release/eww close powermenu && ${shutdown}" shutdown_icon)
 	)
-)
-
-(defpoll time
-	:interval "2s"
-	:initial `date +'{"hour":"%H","min":"%M"}'`
-	`date +'{"hour":"%H","min":"%M"}'`
-)
-
-(defpoll net
-	:interval "60s"
-	:initial `N/A`
-	`nmcli -t -f SIGNAL,ACTIVE device wifi \
-	| awk -F':' '{if($2=="yes")print$1}'`
-)
-
-(defwidget _network [
-	strength offline excellent
-	good okay slow
-	]
-	(box :class "net-box"
-		:spacing 8
-		:space-evenly false
-		(label :text {
-			strength == "" ? offline :
-			strength < 26 ? slow :
-			strength < 51 ? okay :
-			strength < 76 ? good :
-			excellent
-		})
-	)
-)
-
-(defwidget _battery [
-	battery status
-	one two three
-	four five six
-	seven charge
-	]
-	(box :class "bat-box"
-		:spacing 8
-		:space-evenly false
-		(label: text {
-			status == 'Charging' ? charge :
-			battery < 15 ? seven :
-			battery < 30 ? six :
-			battery < 45 ? five :
-			battery < 60 ? four :
-			battery < 75 ? three :
-			battery < 95 ? two :
-			one
-		})
-	)
-)
-
-(defwidget _lundial []
-	(label :class "sundial-lbl"
-		:halign "end"
-		:hexpand true
-		:text {
-			time.hour > 5 && time.hour < 6 ?
-			"Dawn" :
-			time.hour > 6 && time.hour < 11 ?
-			"Morning" :
-			time.hour > 11 && time.hour < 13 ?
-			"Midday" :
-			time.hour > 13 && time.hour < 17 ?
-			"Afternoon" :
-			time.hour > 17 && time.hour < 19 ?
-			"Evening" :
-			time.hour > 19 && time.hour < 20 ?
-			"Dusk" :
-			time.hour > 20 && time.hour < 23 ?
-			"Night" :
-			time.hour > 23 && time.hour < 1 ?
-			"Midnight" : "Night"
-		}
-	)
-)
+) 

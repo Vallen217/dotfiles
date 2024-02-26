@@ -50,13 +50,15 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec "rofi -modi drun -show drun"
 bindsym $mod+Shift+d exec "rofi -modi filebrowser -show filebrowser"
 
-# rofi power-menu
-bindsym $mod+Shift+p exec "bash /home/$USER/.config/scripts/rofi/power_menu.sh"
-
 # rofi launch an editor in common directories
 bindsym $mod+e exec "bash /home/$USER/.config/scripts/rofi/common_directories.sh -e"
 # rofi launch a terminal in common directories
 bindsym $mod+t exec "bash /home/$USER/.config/scripts/rofi/common_directories.sh -t"
+
+# eww power-menu
+bindsym $mod+Shift+p exec "/home/$USER/eww/target/release/eww open powermenu"
+# TODO: implement seamless way to exit eww windows
+bindsym $mod+Ctrl+p exec "/home/$USER/eww/target/release/eww close powermenu"
 
 # change focus
 bindsym $mod+h focus left
@@ -64,23 +66,11 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
-# alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
-
 # move focused window
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+Ctrl+h split h
