@@ -1,13 +1,5 @@
 # Screenshots
 
-- [Desktop](/screenshots/#desktop)
-- [IDE](/screenshots/#neovim)
-- [Spotify](/screenshots/#spicetify)
-- [Terminal & tui](/screenshots/#kitty)
-- [Notifications](/screenshots/#dunst)
-- [Application Launcher](/screenshots/#rofi)
-- [Lockscreen](/screenshots/#i3lock-color)
-
 ## Desktop using [i3](https://i3wm.org) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/i3/config)\) and [polybar](https://github.com/polybar/polybar) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/polybar)\)
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
@@ -29,6 +21,10 @@
 ## [Kitty](https://github.com/kovidgoyal/kitty) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/kitty/kitty.conf)\) terminals running: [neofetch](https://github.com/dylanaraps/neofetch) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/neofetch/config.conf)\), [ranger](https://github.com/ranger/ranger), and [bottom](https://github.com/ClementTsang/bottom/bottom.toml) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/bottom/bottom.toml)\)
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
+
+## [Eww](https://elkowar.github.io/eww/eww.html) powermenu \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/eww)\)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/eww_powermenu.png?raw=true)
 
 ## [Dunst](https://github.com/dunst-project/dunst) notifications \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/dunst)\)
 
