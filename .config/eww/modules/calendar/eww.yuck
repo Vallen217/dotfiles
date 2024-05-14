@@ -1,0 +1,63 @@
+(defwindow calendar
+    :monitor 0
+    :stacking "fg"
+    :windowtype "normal"
+    :wm-ignore true
+    :geometry (geometry
+		:x "-42px"
+		:y "58px"
+        :width "15%"
+    	:anchor "top right"
+    )
+    (calendar_layout)
+)
+
+(defwidget calendar_layout []
+	(box :class "calendar_layout_box"
+		:orientation "vertical"
+		:space-evenly false
+		:spacing 15
+		(_time)
+		(_calendar)
+	)
+)
+
+(defwidget _calendar []
+    (box :class "calendar_box"
+        :space-evenly true
+        :orientation "vertical"
+        :halign "center"
+        (calendar :class "calendar"
+            :halign "center"
+            :active true
+            :show-heading false
+            :show-day-names true
+        )
+    )
+)
+
+(defwidget _time []
+	(box :class "time_box"
+		:space-evenly false
+        :orientation "vertical"
+		:halign "center"
+		(box
+			:space-evenly false
+			:orientation "vertical"
+			:class "time_label_box"
+			:hexpand true
+			:halign "center"
+			(label :class "time_label"
+				:halign "end"
+				:text " ${time} | ${date}"
+			)
+		)
+	)
+)
+
+(defpoll time :interval "6s"
+  "date '+%H:%M'")
+
+(defpoll date :interval "60s"
+	"date '+%b %d, %Y'"
+)
