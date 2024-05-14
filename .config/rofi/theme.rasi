@@ -1,107 +1,179 @@
+/* Global */
 * {
-	bg0: #12121f;
-	bg1: #1d1d2f;
-	bg2: #29293f;
+	bg1: #12121f;
+	bg2: #171728;
+	bg3: #1d1d2f;
+	bg4: #222236;
 
-	fg0: #d4d7ff;
-	fg1: #d0d3ff;
-	fg2: #cccfff;
+	fg: #d4d7ff;
 
+	grey: #4f5071;
 	red: #da587d;
 	green: #7fdca9;
 	yellow: #fcf39c;
 	blue: #729ce9;
-	purple: #8983d8;
-	cyan: #78e2e1;
 
-	accent: @bg0;
+	active: @blue;
+	selected: @bg3;
+	accent: @bg1;
 	urgent: @red;
 
-	background-color: transparent;
-	text-color: @fg0;
-
 	margin: 0;
-	padding: 0;
-	spacing: 0;
+	padding: 3;
+	spacing: 5;
 }
 
-element-icon, element-text, scrollbar {
-	cursor: underline;
-}
 
 window {
+	transparency: "real";
 	location: center;
-	width: 290px;
-	height: 445px;
-	x-offset: 4px;
-	y-offset: 26px;
+	anchor: center;
+	width: 400px;
+	height: 545px;
+	x-offset: 0px;
+	y-offset: 0px;
 
 	background-color: @bg1;
 	border: 2px;
-	border-color: @bg2;
+	border-color: @bg3;
 	border-radius: 12px;
 }
 
+/* Mainbox */
+mainbox {
+	enabled: true;
+	spacing: 0px;
+	background-color: @bg1;
+	orientation: vertical;
+	children: [ "inputbar", "listbox" ];
+}
+listbox {
+    spacing: 10px;
+    padding: 15px;
+    background-color: @bg1;
+    orientation: vertical;
+    children: [ "message", "listview" ];
+}
+
+/* Inputbar */
 inputbar {
 	spacing: 8px;
-	padding: 4px 8px;
+	padding: 5px 8px;
 	children: [ icon-search, entry ];
-  
-	border-radius: 12px;
-	background-color: @bg0;
+	border-radius: 20px 5px 20px 5px;
+	background-color: @bg4;
 }
-
-icon-search, entry, element-icon, element-text {
+icon-search{
 	vertical-align: 0.5;
-}
-
-icon-search {
 	expand: false;
 	filename: "search-symbolic";
-	size: 14px;
+	text-color: @fg;
+	background-color: @bg1;
+	padding: 12px;
+	border-radius: 20px 5px 20px 5px;
+	size: 17px;
+}
+entry {
+	enabled: true;
+	expand: false;
+	width: 315px;
+	padding: 8px 26px;
+	border-radius: 20px 5px 20px 5px;
+	background-color: @bg1;
+	text-color: @fg;
+	cursor: text;
+	placeholder: "Search";
+	placeholder-color: @fg;
+}
+dummy {
+	expand: true;
+	background-color: transparent;
 }
 
-textbox {
-	padding: 4px 8px;
-	background-color: @bg2;
-}
-
+/* Listview */
 listview {
-	padding: 4px 0px;
-	lines: 12;
+	enabled: true;
 	columns: 1;
-	scrollbar: false;
-	fixed-height: false;
+	lines: 8;
+	cycle: true;
 	dynamic: true;
+	scrollbar: false;
+	layout: vertical;
+	reverse: false;
+	fixed-height: true;
+	fixed-columns: true;
+
+	spacing: 5px;
+	padding: 8px;
+	background-color: @bg3;
+	border-radius: 12px;
+	text-color: @fg;
+	cursor: "default";
 }
 
+/* Elements */
 element {
-	padding: 4px 8px;
-	spacing: 8px;
-	radius: 15px;
+	enabled: true;
+	spacing: 10px;
+	padding: 12px;
+	border-radius: 20px 5px 20px 5px;
+	background-color: @bg1;
+	text-color: @fg;
+	cursor: pointer;
 }
-
-element normal urgent {
-	text-color: @urgent;
+lement normal.normal {
+    background-color: inherit;
+    text-color: inherit;
 }
-
-element normal active {
-	text-color: @fg0;
+element normal.urgent {
+    background-color: @urgent;
+    text-color: @fg;
 }
-
-element selected {
-	text-color: @fg0;
-	background-color: @accent;
+element normal.active {
+    background-color: @active;
+    text-color: @fg;
 }
-
-element selected urgent {
-	background-color: @urgent;
+element selected.normal {
+    background-color: @selected;
+    text-color: @fg;
 }
-
+element selected.urgent {
+    background-color: @urgent;
+    text-color: @fg;
+}
+element selected.active {
+    background-color: @urgent;
+    text-color: @fg;
+}
 element-icon {
-	size: 0.8em;
+    background-color: transparent;
+    text-color: @fg;
+    size: 12px;
+    cursor: inherit;
+}
+element-text {
+    background-color: transparent;
+    text-color: @fg;
+    cursor: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
 }
 
-element-text {
-	text-color: inherit;
+/*****----- Message -----*****/
+message {
+    background-color:            transparent;
+}
+textbox {
+    padding:                     12px;
+    border-radius:               20px 5px 20px 5px;
+    background-color:            @bg3;
+    text-color:                  @fg;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+error-message {
+    padding:                     12px;
+    border-radius:               0px;
+    background-color:            @bg1;
+    text-color:                  @fg;
 }

@@ -1,5 +1,5 @@
 configuration {
-	modi: "drun, run";
+	modi: "drun, run, filebrowser";
 	show-icons: true;
 	terminal: "kitty";
 	font: "ShureTechMono Nerd Font Mono 12";
