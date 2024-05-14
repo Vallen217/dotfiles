@@ -1,27 +1,3 @@
-(defwindow calendar
-    :monitor 0
-    :stacking "fg"
-    :windowtype "normal"
-    :wm-ignore true
-    :geometry (geometry
-		:x "-42px"
-		:y "58px"
-        :width "15%"
-    	:anchor "top right"
-    )
-    (calendar_layout)
-)
-
-(defwidget calendar_layout []
-	(box :class "calendar_layout_box"
-		:orientation "vertical"
-		:space-evenly false
-		:spacing 15
-		(_time)
-		(_calendar)
-	)
-)
-
 (defwidget _calendar []
     (box :class "calendar_box"
         :space-evenly true
@@ -55,9 +31,5 @@
 	)
 )
 
-(defpoll time :interval "6s"
-  "date '+%H:%M'")
-
-(defpoll date :interval "60s"
-	"date '+%b %d, %Y'"
-)
+(defpoll time :interval "6s" "date '+%H:%M'")
+(defpoll date :interval "60s" "date '+%b %Y'")

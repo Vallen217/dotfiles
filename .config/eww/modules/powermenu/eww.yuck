@@ -1,34 +1,3 @@
-(defwindow powermenu
-	:stacking "fg"
-	:windowtype "normal"
-	:wm-ignore true
-	:geometry (geometry
-		:x "-2.6%"
-		:y "58px"
-		:width "20%"
-		:height "10%"
-		:anchor "top center"
-	)
-	(powermenu_layout)
-)
-
-(defwidget powermenu_layout []
-	(box :class "powermenu_layout-box"
-		(_powermenu
-			:lockscreen "$HOME/.config/scripts/system/lock.sh"
-			:suspend "systemctl suspend"
-			:logout "loginctl kill-session self"
-			:reboot "systemctl reboot"
-			:shutdown "systemctl shutdown"
-			:lockscreen_icon ""
-			:suspend_icon "󰖔"
-			:logout_icon "󰍃"
-			:reboot_icon "󰜉"
-			:shutdown_icon "󰐦"
-		)
-	)
-)
-
 (defwidget _powermenu [
 	lockscreen lockscreen_icon
 	suspend suspend_icon

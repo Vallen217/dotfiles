@@ -28,15 +28,15 @@ $red: #da587d;
 
 	button {
 		padding: .5em;
-		border-radius: 0.1em;
-		background-color: rgba($bg-2, 1.0);
+		border-radius: 25px 5px 25px 5px;
+		background-color: rgba($bg-3, 1.0);
 		color: rgba($fg, 1.0);
 
 		&:nth-child(1) {
 			&:hover {
 				transition: 200ms linear background-color, border-radius;
-				color: rgba($blue, 0.9);
-				background-color: rgba($bg-1, 1.0);
+				color: rgba($blue, 1.0);
+				background-color: rgba($bg-2, 1.0);
 			}
 		}
 
@@ -44,7 +44,7 @@ $red: #da587d;
 			&:hover {
 				transition: 200ms linear background-color, border-radius;
 				color: rgba($blue, 0.9);
-				background-color: rgba($bg-1, 1.0);
+				background-color: rgba($bg-2, 1.0);
 			}
 		}
 
@@ -52,7 +52,7 @@ $red: #da587d;
 			&:hover {
 				transition: 200ms linear background-color, border-radius;
 				color: rgba($yellow, 0.9);
-				background-color: rgba($bg-1, 1.0);
+				background-color: rgba($bg-2, 1.0);
 			}
 		}
 
@@ -60,7 +60,7 @@ $red: #da587d;
 			&:hover {
 				transition: 200ms linear background-color, border-radius;
 				color: rgba($red, 0.9);
-				background-color: rgba($bg-1, 1.0);
+				background-color: rgba($bg-2, 1.0);
 			}
 		}
 
@@ -73,7 +73,6 @@ $red: #da587d;
 		}
 	}
 }
-
 
 .calendar {
 	font-size: 22;
@@ -92,27 +91,27 @@ $red: #da587d;
 	&:indeterminate {
 		color: rgba($grey-1, 0.9);
 	}
+}
 
-	.calendar_box {
-		background-color: rgba($bg-3, 1.0);
-		color: rgba($fg, 1.0);
-		// padding: 10px;
-		border-radius: 12px;
-		margin-top: -8px;
-	}
+.calendar_box {
+	background-color: rgba($bg-3, 1.0);
+	color: rgba($fg, 1.0);
+	// padding: 10px;
+	border-radius: 12px;
+	margin-top: -8px;
+}
 
-	.calendar_layout_box {
-		background-color: rgba($bg-3, 1.0);
-		padding: 18px;
-		margin-top: -12px;
-	}
+.calendar_layout_box {
+	background-color: rgba($bg-3, 1.0);
+	padding: 18px;
+	margin-top: -12px;
+}
 
-	.calendar.highlight {
-		background-color: rgba($bg-1, 1.0);
-		color: rgba($fg, 1.0);
-		font-weight: bold;
-		border-radius: 12px;
-	}
+.calendar.highlight {
+	// background-color: rgba($bg-3, 1.0);
+	color: rgba($fg, 1.0);
+	font-weight: bold;
+	// border-radius: 22px 22px 0px 0px;
 }
 
 .time_box {
@@ -120,8 +119,8 @@ $red: #da587d;
 	background-color: rgba($bg-1, 1.0);
 	color: rgba($fg, 1.0);
 	margin-top: 5px;
-	padding: 4px;
+	padding: 6px;
 	padding-left: 12px;
 	padding-right: 12px;
-	border-radius: 12px;
+	border-radius: 24px 4px 24px 4px;
 }
