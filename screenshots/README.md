@@ -22,9 +22,9 @@
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
 
-## [Eww](https://elkowar.github.io/eww/eww.html) powermenu \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/eww)\)
+## [Eww](https://elkowar.github.io/eww/eww.html) powermenu & calendar \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/eww)\)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/eww_powermenu.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/eww.png?raw=true)
 
 ## [Dunst](https://github.com/dunst-project/dunst) notifications \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/dunst)\)
 
