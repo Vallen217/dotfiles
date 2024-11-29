@@ -1,5 +1,6 @@
 (include "./modules/powermenu/eww.yuck")
 (include "./modules/calendar/eww.yuck")
+(include "./bar/eww.yuck")
 
 (defwindow powermenu
 	:stacking "fg"
@@ -51,7 +52,7 @@
 		:orientation "vertical"
 		:space-evenly false
 		:spacing 15
-		(_time)
+		(cal_time)
 		(_calendar)
 		;; (_weather)
 	)

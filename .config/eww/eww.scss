@@ -7,120 +7,121 @@ $fg: #d4d7ff;
 $grey-1: #4f5071;
 $grey-2: #595b7e;
 $grey-3: #63658b;
-$green: #8fe0b4;
-$yellow: #fdf5b0;
-$blue: #729ce9;
-$cyan: #78e2e1;
-$orange: #e7c188;
-$purple: #8983d8;
-$red: #da587d;
+$green: #70cfb3;
+$yellow: #e5d99e;
+$blue: #7e9aea;
+$cyan: #7ed5ed;
+$purple: #9688e4;
+$red: #c04779;
 
 * {
-	all: unset;
+  all: unset;
 }
 
 * {
-	font-family: 'ShureTechMono Nerd Font';
+  font-family: 'ShureTechMono Nerd Font';
 }
 
+// Powermenu
 .powermenu {
-	font-size: 2em;
+  font-size: 2em;
 
-	button {
-		padding: .5em;
-		border-radius: 25px 5px 25px 5px;
-		background-color: rgba($bg-3, 1.0);
-		color: rgba($fg, 1.0);
+  button {
+    padding: .5em;
+    border-radius: 25px 5px 25px 5px;
+    background-color: rgba($bg-3, 1.0);
+    color: rgba($fg, 1.0);
 
-		&:nth-child(1) {
-			&:hover {
-				transition: 200ms linear background-color, border-radius;
-				color: rgba($blue, 1.0);
-				background-color: rgba($bg-2, 1.0);
-			}
-		}
+    &:nth-child(1) {
+      &:hover {
+        transition: 200ms linear background-color, border-radius;
+        color: rgba($blue, 1.0);
+        background-color: rgba($bg-2, 1.0);
+      }
+    }
 
-		&:nth-child(2) {
-			&:hover {
-				transition: 200ms linear background-color, border-radius;
-				color: rgba($blue, 0.9);
-				background-color: rgba($bg-2, 1.0);
-			}
-		}
+    &:nth-child(2) {
+      &:hover {
+        transition: 200ms linear background-color, border-radius;
+        color: rgba($blue, 0.9);
+        background-color: rgba($bg-2, 1.0);
+      }
+    }
 
-		&:nth-child(3) {
-			&:hover {
-				transition: 200ms linear background-color, border-radius;
-				color: rgba($yellow, 0.9);
-				background-color: rgba($bg-2, 1.0);
-			}
-		}
+    &:nth-child(3) {
+      &:hover {
+        transition: 200ms linear background-color, border-radius;
+        color: rgba($yellow, 0.9);
+        background-color: rgba($bg-2, 1.0);
+      }
+    }
 
-		&:nth-child(4) {
-			&:hover {
-				transition: 200ms linear background-color, border-radius;
-				color: rgba($red, 0.9);
-				background-color: rgba($bg-2, 1.0);
-			}
-		}
+    &:nth-child(4) {
+      &:hover {
+        transition: 200ms linear background-color, border-radius;
+        color: rgba($red, 0.9);
+        background-color: rgba($bg-2, 1.0);
+      }
+    }
 
-		&:nth-child(5) {
-			&:hover {
-				transition: 200ms linear background-color, border-radius;
-				color: rgba($red, 0.9);
-				background-color: rgba($bg-2, 1.0);
-			}
-		}
-	}
+    &:nth-child(5) {
+      &:hover {
+        transition: 200ms linear background-color, border-radius;
+        color: rgba($red, 0.9);
+        background-color: rgba($bg-2, 1.0);
+      }
+    }
+  }
 }
 
+// Calendar
 .calendar {
-	font-size: 22;
-	background-color: rgba($bg-1, 0.9);
-	color: rgba($fg, 1.0);
-	border-radius: 12px;
-	margin: 2px;
-	padding: 5px;
+  font-size: 22;
+  background-color: rgba($bg-1, 0.9);
+  color: rgba($fg, 1.0);
+  border-radius: 12px;
+  margin: 2px;
+  padding: 5px;
 
-	&:selected {
-		background-color: rgba($fg, 1.0);
-		color: rgba($bg-1, 1.0);
-		border-radius: 16px;
-	}
+  &:selected {
+    background-color: rgba($fg, 1.0);
+    color: rgba($bg-1, 1.0);
+    border-radius: 16px;
+  }
 
-	&:indeterminate {
-		color: rgba($grey-1, 0.9);
-	}
+  &:indeterminate {
+    color: rgba($grey-1, 0.9);
+  }
 }
 
 .calendar_box {
-	background-color: rgba($bg-3, 1.0);
-	color: rgba($fg, 1.0);
-	// padding: 10px;
-	border-radius: 12px;
-	margin-top: -8px;
+  background-color: rgba($bg-3, 1.0);
+  color: rgba($fg, 1.0);
+  // padding: 10px;
+  border-radius: 12px;
+  margin-top: -8px;
 }
 
 .calendar_layout_box {
-	background-color: rgba($bg-3, 1.0);
-	padding: 18px;
-	margin-top: -12px;
+  background-color: rgba($bg-3, 1.0);
+  padding: 18px;
+  margin-top: -12px;
 }
 
 .calendar.highlight {
-	// background-color: rgba($bg-3, 1.0);
-	color: rgba($fg, 1.0);
-	font-weight: bold;
-	// border-radius: 22px 22px 0px 0px;
+  // background-color: rgba($bg-3, 1.0);
+  color: rgba($fg, 1.0);
+  font-weight: bold;
+  // border-radius: 22px 22px 0px 0px;
 }
 
 .time_box {
-	font-size: 22px;
-	background-color: rgba($bg-1, 1.0);
-	color: rgba($fg, 1.0);
-	margin-top: 5px;
-	padding: 6px;
-	padding-left: 12px;
-	padding-right: 12px;
-	border-radius: 24px 4px 24px 4px;
+  font-size: 22px;
+  background-color: rgba($bg-1, 1.0);
+  color: rgba($fg, 1.0);
+  margin-top: 5px;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px 5px;
 }

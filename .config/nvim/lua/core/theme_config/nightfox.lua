@@ -53,15 +53,15 @@ require("nightfox").setup({
 			sel1 = "#13151e",
 			comment = "#63658b",
 			black = "#222236",
-			red = "#da587d",
-			magenta = "#8983d8", -- purple
-			blue = "#729ce9",
-			yellow = "#78e2e1", -- cyan
-			green = "#7fdca9",
-			cyan = "#fcf39c", -- yellow
-			orange = "#e3b878",
+			red = "#c04779",
+			magenta = "#9688e4", -- purple
+			blue = "#7e9aea",
+			yellow = "#7ed5ed", -- cyan
+			green = "#70cfb3",
+			cyan = "#e5d99e", -- yellow
+			orange = "#e8b379",
 			white = "#d4d7ff",
-			pink = "#ff007d",
+			pink = "#C96695",
 		},
 	},
 	specs = {},

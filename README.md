@@ -1,10 +1,10 @@
 # Dotfiles
 
 <p align="center">
-   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=729ce9&style=for-the-badge&logo=starship&labelColor=12121f"></a>
-  <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=d74770&style=for-the-badge&logo=codecov&labelColor=12121f"></a>
-  <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=7fdca9&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a>  
-  <a href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Vallen217/dotfiles?color=78e2e1&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a></a>
+   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=7e9aea&style=for-the-badge&logo=starship&labelColor=12121f"></a>
+  <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=c04779&style=for-the-badge&logo=codecov&labelColor=12121f"></a>
+  <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=70cfb3&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a>  
+  <a href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Vallen217/dotfiles?color=7ed5ed&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a></a>
 </p>
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
@@ -41,8 +41,8 @@ Screenshots of almost everything as well as their respective links can be found 
 ## Customization
 
 - Font: ShureTechMono Nerd Font
-    * [Website](https://www.nerdfonts.com/)
-    * [Zip file](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
+  - [Website](https://www.nerdfonts.com/)
+  - [Zip file](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/ShareTechMono.zip)
 - Icons: [Kora](https://github.com/bikass/kora)
 - Cursor Theme: [Catppouccin](https://github.com/catppuccin/cursors)
 - Color Palette: [Eidolon](https://github.com/Vallen217/dotfiles/blob/main/color_palette.md)

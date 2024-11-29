@@ -10,7 +10,7 @@
 # Whether to hide the average cpu entry.
 hide_avg_cpu = false
 # Whether to use dot markers rather than braille.
-dot_marker = true
+dot_marker = false
 # The update rate of the application.
 rate = 1000
 # Whether to put the CPU legend to the left.
@@ -46,19 +46,19 @@ basic = false
 # Use the old network legend style
 use_old_network_legend = false
 # Remove space in tables
-hide_table_gap = false
+hide_table_gap = true
 # Show the battery widgets
-battery = false
+battery = true
 # Disable mouse clicks
 disable_click = false
 # Built-in themes.  Valid values are "default", "default-light", "gruvbox", "gruvbox-light", "nord", "nord-light"
-color = "default"
+# color = "default"
 # Show memory values in the processes widget as values by default
 mem_as_value = true
 # Show tree mode by default in the processes widget.
 tree = true
 # Shows an indicator in table widgets tracking where in the list you are.
-show_table_scroll_position = false
+show_table_scroll_position = true
 # Show processes as their commands by default in the process widget.
 process_command = true
 # Displays the network widget with binary prefixes.

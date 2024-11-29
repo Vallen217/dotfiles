@@ -12,7 +12,7 @@
     )
 )
 
-(defwidget _time []
+(defwidget cal_time []
 	(box :class "time_box"
 		:space-evenly false
         :orientation "vertical"
@@ -25,11 +25,11 @@
 			:halign "center"
 			(label :class "time_label"
 				:halign "end"
-				:text " ${time} | ${date}"
+				:text "${cal_time} | ${cal_date}"
 			)
 		)
 	)
 )
 
-(defpoll time :interval "6s" "date '+%H:%M'")
-(defpoll date :interval "60s" "date '+%b %Y'")
+(defpoll cal_time :interval "6s" "date '+%H:%M'")
+(defpoll cal_date :interval "60s" "date '+%B %Y'")

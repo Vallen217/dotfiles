@@ -39,32 +39,6 @@
 				"lua"
 			]
 		},
-		"rome-lsp": {
-			"command": "rome",
-			"args": [
-				"lsp"
-			],
-			"filetypes": [
-				"javascript",
-				"javascriptreact",
-				"typescript",
-				"typescriptreact",
-				"json"
-			],
-			"rootPatterns": [
-				".config"
-			],
-			"requireRootPattern": true
-		},
-		"rust": {
-			"command": "rust-analyzer",
-			"filetypes": [
-				"rust"
-			],
-			"rootPatterns": [
-				"Cargo.toml"
-			]
-		},
 		"sql": {
 			"module": "/path/to/node_modules/sql-language-server/dist/bin/cli.js",
 			"args": [

@@ -1,4 +1,4 @@
-# Eidolon color palette
+# Color palette: Ghost
 
 ## Background
 
@@ -24,42 +24,42 @@
 
 ## Red
 
-- ![#de688a](https://placehold.co/15x15/de688a/de688a.png) `#de688a`
-- ![#da587d](https://placehold.co/15x15/da587d/da587d.png) `#da587d`
-- ![#d74770](https://placehold.co/15x15/d74770/d74770.png) `#d74770`
+- ![#bf4d7a](https://placehold.co/15x15/de688a/de688a.png) `#bf4d7a`
+- ![#c04779](https://placehold.co/15x15/da587d/da587d.png) `#c04779`
+- ![#bd4577](https://placehold.co/15x15/d74770/d74770.png) `#bd4577`
 
 ## Purple
 
-- ![#9792dd](https://placehold.co/15x15/9792dd/9792dd.png) `#9792dd`
-- ![#8983d8](https://placehold.co/15x15/8983d8/8983d8.png) `#8983d8`
-- ![#7a73d3](https://placehold.co/15x15/7a73d3/7a73d3.png) `#7a73d3`
+- ![#988be5](https://placehold.co/15x15/9792dd/9792dd.png) `#988be5`
+- ![#9688e4](https://placehold.co/15x15/8983d8/8983d8.png) `#9688e4`
+- ![#9385e3](https://placehold.co/15x15/7a73d3/7a73d3.png) `#9385e3`
 
 ## Blue
 
-- ![#83a8ec](https://placehold.co/15x15/83a8ec/83a8ec.png) `#83a8ec`
-- ![#729ce9](https://placehold.co/15x15/729ce9/729ce9.png) `#729ce9`
-- ![#608fe6](https://placehold.co/15x15/608fe6/608fe6.png) `#608fe6`
+- ![#829eed](https://placehold.co/15x15/83a8ec/83a8ec.png) `#829eed`
+- ![#7e9aea](https://placehold.co/15x15/729ce9/729ce9.png) `#7e9aea`
+- ![#7a96e6](https://placehold.co/15x15/608fe6/608fe6.png) `#7a96e6`
 
 ## Cyan
 
-- ![#89e6e4](https://placehold.co/15x15/89e6e4/89e6e4.png) `#89e6e4`
-- ![#78e2e1](https://placehold.co/15x15/78e2e1/78e2e1.png) `#78e2e1`
-- ![#65dedc](https://placehold.co/15x15/65dedc/65dedc.png) `#65dedc`
+- ![#84d7ee](https://placehold.co/15x15/89e6e4/89e6e4.png) `#84d7ee`
+- ![#7ed5ed](https://placehold.co/15x15/78e2e1/78e2e1.png) `#7ed5ed`
+- ![#7ad3ec](https://placehold.co/15x15/65dedc/65dedc.png) `#7ad3ec`
 
 ## Green
 
-- ![#8fe0b4](https://placehold.co/15x15/8fe0b4/8fe0b4.png) `#8fe0b4`
-- ![#7fdca9](https://placehold.co/15x15/7fdca9/7fdca9.png) `#7fdca9`
-- ![#6fd89e](https://placehold.co/15x15/6fd89e/6fd89e.png) `#6fd89e`
+- ![#78d2b7](https://placehold.co/15x15/8fe0b4/8fe0b4.png) `#78d2b7`
+- ![#70cfb3](https://placehold.co/15x15/7fdca9/7fdca9.png) `#70cfb3`
+- ![#6dccb3](https://placehold.co/15x15/6fd89e/6fd89e.png) `#6dccb3`
 
 ## Yellow
 
-- ![#fdf5b0](https://placehold.co/15x15/fdf5b0/fdf5b0.png) `#fdf5b0`
-- ![#fcf39c](https://placehold.co/15x15/fcf39c/fcf39c.png) `#fcf39c`
-- ![#fbf088](https://placehold.co/15x15/fbf088/fbf088.png) `#fbf088`
+- ![#e5daa3](https://placehold.co/15x15/fdf5b0/fdf5b0.png) `#e5daa3`
+- ![#e5d99e](https://placehold.co/15x15/fcf39c/fcf39c.png) `#e5d99e`
+- ![#e3d79e](https://placehold.co/15x15/fbf088/fbf088.png) `#e3d79e`
 
 ## Orange
 
-- ![#e7c188](https://placehold.co/15x15/e7c188/e7c188.png) `#e7c188`
-- ![#e3b878](https://placehold.co/15x15/e3b878/e3b878.png) `#e3b878`
-- ![#e3b878](https://placehold.co/15x15/e3b878/e3b878.png) `#e0af67`
+- ![#e8b57b](https://placehold.co/15x15/e7c188/e7c188.png) `#e8b57b`
+- ![#e8b379](https://placehold.co/15x15/e3b878/e3b878.png) `#e8b379`
+- ![#e3b178](https://placehold.co/15x15/e3b878/e3b878.png) `#e3b178`

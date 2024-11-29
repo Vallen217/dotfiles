@@ -22,7 +22,7 @@ exec --no-startup-id nm-applet
 
 # autolock && suspend
 exec --no-startup-id xautolock -time 15 -locker "/home/$USER/.config/scripts/system/lock.sh"
-exec --no-startup-id xautolock -time 30 -locker "/home/$USER/.config/scripts/system/lock.sh && systemctl suspend"
+exec --no-startup-id xautolock -time 30 -locker "systemctl suspend"
 
 # screenshots
 bindsym Print exec --no-startup-id flameshot screen
@@ -59,6 +59,9 @@ bindsym $mod+t exec "bash /home/$USER/.config/scripts/rofi/common_directories.sh
 bindsym $mod+Shift+p exec "/home/$USER/eww/target/release/eww open powermenu"
 # TODO: implement seamless way to exit eww windows
 bindsym $mod+Ctrl+p exec "/home/$USER/eww/target/release/eww close powermenu"
+
+bindsym $mod+Shift+o exec "/home/$USER/eww/target/release/eww open calendar"
+bindsym $mod+Ctrl+o exec "/home/$USER/eww/target/release/eww close calendar"
 
 # change focus
 bindsym $mod+h focus left
@@ -171,10 +174,10 @@ bindsym $mod+r mode "resize"
 
 
 # class                 border  bground text    indicator child_border
-client.focused          #83A8EC #12121F #D4D7FF #83A8EC   #8983D8
+client.focused          #D4D7FF #12121F #D4D7FF #7E9AEA   #9688E4
 client.focused_inactive #D4D7FF #12121F #D4D7FF #D4D7FF   #D0D3FF
-client.unfocused        #D0D3FF #12121F #D4D7FF #D0D3FF   #CCCFFF
-client.urgent           #DE688A #DA587D #D4D7FF #D0D3FF   #DA587D
+client.unfocused        #63658B #12121F #D4D7FF #D0D3FF   #CCCFFF
+client.urgent           #BF4D7A #12121F #D4D7FF #D0D3FF   #BD4577
 client.placeholder      #12121F #12121F #D4D7FF #12121F   #222236
 
 client.background       #12121F
