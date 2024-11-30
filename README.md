@@ -1,10 +1,22 @@
 # Dotfiles
 
 <p align="center">
-   <a href="https://github.com/Vallen217/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=7e9aea&style=for-the-badge&logo=starship&labelColor=12121f"></a>
-  <a href="https://github.com/Vallen217/dotfiles/issues"><img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=c04779&style=for-the-badge&logo=codecov&labelColor=12121f"></a>
-  <a href="https://github.com/Vallen217/dotfiles/network/members"><img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=70cfb3&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a>  
-  <a href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Vallen217/dotfiles?color=7ed5ed&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f"></a></a>
+  <a
+    href="https://github.com/Vallen217/dotfiles/stargazers">
+    <img src="https://img.shields.io/github/stars/Vallen217/dotfiles?color=74b8fb&style=for-the-badge&logo=starship&labelColor=12121f", alt="stars">
+  </a>
+  <a
+    href="https://github.com/Vallen217/dotfiles/issues">
+    <img src="https://img.shields.io/github/issues/Vallen217/dotfiles?color=c94a70&style=for-the-badge&logo=codecov&labelColor=12121f", alt="issues">
+  </a>
+  <a
+    href="https://github.com/Vallen217/dotfiles/network/members">
+    <img src="https://img.shields.io/github/forks/Vallen217/dotfiles?color=70d7b9&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f", alt="forks">
+  </a>
+  <a
+    href="https://github.com/Vallen217/dotfiles/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Vallen217/dotfiles?color=8dd7f7&style=for-the-badge&logo=jfrog-bintray&labelColor=12121f", alt="license"></a>
+  </a>
 </p>
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)

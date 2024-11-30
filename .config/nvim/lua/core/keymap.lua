@@ -97,11 +97,11 @@ map("n", "<Space>bl", "<Cmd>BufferOrderByLanguage<CR>", opts)
 map("n", "<Space>bw", "<Cmd>BufferOrderByWindowNumber<CR>", opts)
 
 -- trouble
-map("n", "<Space>dt", "<Cmd>TroubleToggle<CR>", opts)
-map("n", "<Space>dw", "<Cmd>TroubleToggle workspace_diagnostics<CR>", opts)
-map("n", "<Space>dd", "<Cmd>TroubleToggle document_diagnostics<CR>", opts)
-map("n", "<Space>dq", "<Cmd>TroubleToggle quickfix<CR>", opts)
-map("n", "<Space>dl", "<Cmd>TroubleToggle lsp_references<CR>", opts)
+-- map("n", "<Space>dt", "<Cmd>TroubleToggle<CR>", opts)
+-- map("n", "<Space>dw", "<Cmd>TroubleToggle workspace_diagnostics<CR>", opts)
+-- map("n", "<Space>dd", "<Cmd>TroubleToggle document_diagnostics<CR>", opts)
+-- map("n", "<Space>dq", "<Cmd>TroubleToggle quickfix<CR>", opts)
+-- map("n", "<Space>dl", "<Cmd>TroubleToggle lsp_references<CR>", opts)
 
 -- trouble integrated gitsigns
 map("n", "<Space>dQ", "<Cmd>Gitsigns setqflist<CR>", opts)

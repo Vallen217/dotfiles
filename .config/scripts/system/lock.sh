@@ -2,10 +2,10 @@
 
 BLANK='#12121f'
 CLEAR='#12121f'
-DEFAULT='#729ce9'
+DEFAULT='#74b8fb'
 TEXT='#d4d7ff'
-WRONG='#da587d'
-VERIFYING='#7fdca9'
+WRONG='#c75275'
+VERIFYING='#70d7b9'
 
 i3lock \
   --insidever-color=$CLEAR \
