@@ -1,4 +1,4 @@
-# Color palette: Pale Ghost
+# Color palette: Eidolon
 
 ## Background
 
@@ -24,40 +24,45 @@
 
 ## Red
 
-- ![#](https://placehold.co/15x15/de688a/de688a.png) `#`
-- ![#](https://placehold.co/15x15/da587d/da587d.png) `#`
+- ![#bd4277](https://placehold.co/15x15/bd4277/bd4277.png) `#bd4277`
+- ![#bf4a7f](https://placehold.co/15x15/bf4a7f/bf4a7f.png) `#bf4a7f`
 
 ## Purple
 
-- ![#](https://placehold.co/15x15/9792dd/9792dd.png) `#`
-- ![#](https://placehold.co/15x15/8983d8/8983d8.png) `#`
+- ![#9486e4](https://placehold.co/15x15/9486e4/9486e4.png) `#9486e4`
+- ![#9f95e9](https://placehold.co/15x15/9f95e9/9f95e9.png) `#9f95e9`
 
-## Pale Purple
+## Lilac
 
-- ![#](https://placehold.co/15x15/9792dd/9792dd.png) `#`
-- ![#](https://placehold.co/15x15/8983d8/8983d8.png) `#`
+- ![#88a4f7](https://placehold.co/15x15/88a4f7/88a4f7.png) `#88a4f7`
+- ![#94aef9](https://placehold.co/15x15/94aef9/94aef9.png) `#94aef9`
 
 ## Blue
 
-- ![#](https://placehold.co/15x15/83a8ec/83a8ec.png) `#`
-- ![#](https://placehold.co/15x15/729ce9/729ce9.png) `#`
+- ![#87bff7](https://placehold.co/15x15/87bff7/87bff7.png) `#87bff7`
+- ![#8fc8fa](https://placehold.co/15x15/8fc8fa/8fc8fa.png) `#8fc8fa`
 
-## Cyan
+## Ice
 
-- ![#](https://placehold.co/15x15/89e6e4/89e6e4.png) `#`
-- ![#](https://placehold.co/15x15/78e2e1/78e2e1.png) `#`
+- ![#9be9f8](https://placehold.co/15x15/9be9f8/9be9f8.png) `#9be9f8`
+- ![#aaecf8](https://placehold.co/15x15/aaecf8/aaecf8.png) `#aaecf8`
 
 ## Green
 
-- ![#](https://placehold.co/15x15/8fe0b4/8fe0b4.png) `#`
-- ![#](https://placehold.co/15x15/7fdca9/7fdca9.png) `#`
+- ![#74d2b7](https://placehold.co/15x15/74d2b7/74d2b7.png) `#74d2b7`
+- ![#7ed7c0](https://placehold.co/15x15/7ed7c0/7ed7c0.png) `#7ed7c0`
 
 ## Yellow
 
-- ![#](https://placehold.co/15x15/fdf5b0/fdf5b0.png) `#`
-- ![#](https://placehold.co/15x15/fcf39c/fcf39c.png) `#`
+- ![#e5dca4](https://placehold.co/15x15/e5dca4/e5dca4.png) `#e5dca4`
+- ![#ecdfac](https://placehold.co/15x15/ecdfac/ecdfac.png) `#ecdfac`
 
 ## Orange
 
-- ![#](https://placehold.co/15x15/e7c188/e7c188.png) `#`
-- ![#](https://placehold.co/15x15/e3b878/e3b878.png) `#`
+- ![#e2b88d](https://placehold.co/15x15/e2b88d/e2b88d.png) `#e2b88d`
+- ![#e8bf9c](https://placehold.co/15x15/e8bf9c/e8bf9c.png) `#e8bf9c`
+
+## Pink
+
+- ![#c45a99](https://placehold.co/15x15/c45a99/c45a99.png) `#c45a99`
+- ![#d864aa](https://placehold.co/15x15/d864aa/d864aa.png) `#d864aa`
