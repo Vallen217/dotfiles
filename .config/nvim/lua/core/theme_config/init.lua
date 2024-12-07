@@ -1,1 +1,1 @@
-require("core.theme_config.nightfox")
+require("core.theme_config.eidolon")

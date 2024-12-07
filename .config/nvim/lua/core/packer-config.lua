@@ -177,9 +177,14 @@ return require("packer").startup(function(use)
 	use("dstein64/vim-startuptime") -- display startup time
 
 	-- colorscheme
-	use("rktjmp/lush.nvim")
-	use("EdenEast/nightfox.nvim")
-	use("folke/tokyonight.nvim")
+	use({
+		"~/Workspace/eidolon.nvim",
+		config = function() vim.cmd("colorscheme eidolon") end,
+		requires = "rktjmp/lush.nvim"
+	})
+	-- use("rktjmp/lush.nvim")
+	-- use("EdenEast/nightfox.nvim")
+	-- use("folke/tokyonight.nvim")
 
 	-- automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

@@ -55,8 +55,8 @@ require("nightfox").setup({
 			black = "#222236",
 			red = "#C75275",
 			magenta = "#99B3FF", -- purple
-			blue = "#74B8FB",
-			yellow = "#8DD7F7", -- pale cyan
+			blue = "#84bffb",
+			yellow = "#8DD7F7", -- cyan
 			green = "#70D7B9",
 			cyan = "#E5D99F", -- yellow
 			orange = "#EDC396",

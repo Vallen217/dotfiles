@@ -116,7 +116,6 @@ map("n", "<Space>dC", "<Cmd>TodoTelescope<CR>", opts)
 -- treesitter context
 map("n", "<Space>ct", "<Cmd>TSContextToggle<CR>", opts)
 
-
 -- glow
 map("n", "<Space>pm", "<Cmd>Glow<CR>", opts) -- preview markdown
 
