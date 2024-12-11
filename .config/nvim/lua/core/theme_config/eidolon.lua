@@ -1,1 +1,2 @@
-vim.cmd("colorscheme eidolon")
+vim.cmd [[colorscheme eidolon]]
+

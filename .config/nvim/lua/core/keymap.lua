@@ -1,6 +1,9 @@
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
+-- TODO:
+-- map nvim-cmp
+
 -- prettier formatting
 map("n", "<Space>pp", "<Cmd>Prettier<CR>", opts)
 
@@ -97,11 +100,11 @@ map("n", "<Space>bl", "<Cmd>BufferOrderByLanguage<CR>", opts)
 map("n", "<Space>bw", "<Cmd>BufferOrderByWindowNumber<CR>", opts)
 
 -- trouble
--- map("n", "<Space>dt", "<Cmd>TroubleToggle<CR>", opts)
--- map("n", "<Space>dw", "<Cmd>TroubleToggle workspace_diagnostics<CR>", opts)
--- map("n", "<Space>dd", "<Cmd>TroubleToggle document_diagnostics<CR>", opts)
--- map("n", "<Space>dq", "<Cmd>TroubleToggle quickfix<CR>", opts)
--- map("n", "<Space>dl", "<Cmd>TroubleToggle lsp_references<CR>", opts)
+map("n", "<Space>dt", "<Cmd>TroubleToggle<CR>", opts)
+map("n", "<Space>dw", "<Cmd>TroubleToggle workspace_diagnostics<CR>", opts)
+map("n", "<Space>dd", "<Cmd>TroubleToggle document_diagnostics<CR>", opts)
+map("n", "<Space>dq", "<Cmd>TroubleToggle quickfix<CR>", opts)
+map("n", "<Space>dl", "<Cmd>TroubleToggle lsp_references<CR>", opts)
 
 -- trouble integrated gitsigns
 map("n", "<Space>dQ", "<Cmd>Gitsigns setqflist<CR>", opts)
@@ -139,3 +142,10 @@ map("n", "<Space>ll", "<Cmd>ToggleTerm size=45 direction=vertical<CR>", opts)
 map("n", "<Space>lf", "<Cmd>ToggleTerm direction=float<CR>", opts)
 map("n", "<Space>lt", "<Cmd>ToggleTerm direction=tab name=terminal<CR>", opts)
 map("n", "<Space>lT", "<Cmd>ToggleTermToggleAll<CR>", opts)
+
+-- aerial window outlines
+map("n", "<Space>at", "<Cmd>AerialToggle!<CR>", opts)
+map("n", "<Space>al", "<Cmd>AerialNext<CR>", opts)
+map("n", "<Space>ah", "<Cmd>AerialPrev<CR>", opts)
+map("n", "<Space>ai", "<Cmd>AerialInfo<CR>", opts)
+map("n", "<Space>an", "<Cmd>AerialNavToggle<CR>", opts)

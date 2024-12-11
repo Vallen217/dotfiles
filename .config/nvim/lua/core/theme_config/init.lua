@@ -1,1 +1,1 @@
-require("core.theme_config.eidolon")
+vim.cmd [[colorscheme eidolon]]
