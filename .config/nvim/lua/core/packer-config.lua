@@ -78,7 +78,7 @@ return require("packer").startup(function(use)
 		requires = "nvim-web-devicons",
 	})
 
-	-- git && file managementuse
+	-- git && file management
 	use({ -- lazy git integration
 		"kdheepak/lazygit.nvim",
 		requires = "nvim-lua/plenary.nvim",
@@ -90,6 +90,13 @@ return require("packer").startup(function(use)
 	use({ -- file tree
 		"nvim-tree/nvim-tree.lua",
 		requires = "nvim-web-devicons",
+	})
+	use({
+		"stevearc/oil.nvim",
+		config = function()
+			require("oil").setup()
+		end,
+		requires = "echasnovski/mini.nvim"
 	})
 	use("lewis6991/gitsigns.nvim") -- git integration
 
@@ -177,7 +184,6 @@ return require("packer").startup(function(use)
 		"iamcco/markdown-preview.nvim",
 		run = function() vim.fn["mkdp#util#install"]() end,
 	})
-	use("kelly-lin/ranger.nvim")
 	use("folke/flash.nvim")      -- code navigation
 	use("goolord/alpha-nvim")    -- startup menu
 	use("dstein64/vim-startuptime") -- display startup time
@@ -186,6 +192,8 @@ return require("packer").startup(function(use)
 	-- bufferline
 	-- neogit
 	-- dashboard
+	-- oil
+	-- lazy
 
 	-- colorscheme
 	-- use("Vallen217/eidolon.nvim")

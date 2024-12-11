@@ -10,8 +10,29 @@ map("n", "<Space>pp", "<Cmd>Prettier<CR>", opts)
 -- nvim-tree
 map("n", "<C-T>", "<Cmd>NvimTreeFindFileToggle<CR>", opts)
 
--- ranger file manager
-map("n", "<C-N>", "<Cmd>Ranger<CR>", opts)
+-- oil file manager
+map("n", "<C-N>", "<Cmd>Oil<CR>", opts)
+require("oil").setup({
+	keymaps = {
+		["g?"] = { "actions.show_help", mode = "n" },
+		["<CR>"] = "actions.select",
+		["<C-s>"] = { "actions.select", opts = { vertical = true } },
+		["<C-h>"] = { "actions.select", opts = { horizontal = true } },
+		["<C-t>"] = { "actions.select", opts = { tab = true } },
+		["<C-p>"] = "actions.preview",
+		["<C-c>"] = { "actions.close", mode = "n" },
+		["<C-l>"] = "actions.refresh",
+		["-"] = { "actions.parent", mode = "n" },
+		["_"] = { "actions.open_cwd", mode = "n" },
+		["`"] = { "actions.cd", mode = "n" },
+		["~"] = { "actions.cd", opts = { scope = "tab" }, mode = "n" },
+		["gs"] = { "actions.change_sort", mode = "n" },
+		["gx"] = "actions.open_external",
+		["g."] = { "actions.toggle_hidden", mode = "n" },
+		["g\\"] = { "actions.toggle_trash", mode = "n" },
+	},
+	use_default_keymaps = false
+})
 
 -- comments
 map("n", "<Space>ac", "<Plug>(comment_toggle_linewise_current)", opts)
