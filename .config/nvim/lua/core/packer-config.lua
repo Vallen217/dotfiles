@@ -191,13 +191,14 @@ return require("packer").startup(function(use)
 		"iamcco/markdown-preview.nvim",
 		run = function() vim.fn["mkdp#util#install"]() end,
 	})
+	use({
+		"nvimdev/dashboard-nvim"
+	})
 	use("folke/flash.nvim")      -- code navigation
-	use("goolord/alpha-nvim")    -- startup menu
 	use("dstein64/vim-startuptime") -- display startup time
 
 	--TODO: Add:
 	-- bufferline
-	-- dashboard
 	-- lazy
 
 	-- colorscheme

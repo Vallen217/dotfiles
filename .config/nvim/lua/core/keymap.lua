@@ -1,9 +1,6 @@
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
--- TODO:
--- order alphabetically
-
 -- aerial window outlines
 map("n", "<Space>at", "<Cmd>AerialToggle!<CR>", opts)
 map("n", "<Space>al", "<Cmd>AerialNext<CR>", opts)
