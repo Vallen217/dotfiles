@@ -8,24 +8,12 @@ map("n", "<Space>ah", "<Cmd>AerialPrev<CR>", opts)
 map("n", "<Space>ai", "<Cmd>AerialInfo<CR>", opts)
 map("n", "<Space>an", "<Cmd>AerialNavToggle<CR>", opts)
 
--- buffer management
-map("n", "<Space>q", "<Cmd>BufferClose<CR>", opts)
-map("n", "<Space>bb", "<Cmd>BufferOrderByBufferNumber<CR>", opts)
-map("n", "<Space>bd", "<Cmd>BufferOrderByDirectory<CR>", opts)
-map("n", "<Space>bl", "<Cmd>BufferOrderByLanguage<CR>", opts)
-map("n", "<Space>bw", "<Cmd>BufferOrderByWindowNumber<CR>", opts)
-
 -- buffer navigation
-map("n", "<Space>0", "<Cmd>BufferGoto 1<CR>", opts)
-map("n", "<Space>1", "<Cmd>BufferGoto 2<CR>", opts)
-map("n", "<Space>2", "<Cmd>BufferGoto 3<CR>", opts)
-map("n", "<Space>3", "<Cmd>BufferGoto 4<CR>", opts)
-map("n", "<Space>4", "<Cmd>BufferGoto 5<CR>", opts)
-map("n", "<Space>5", "<Cmd>BufferGoto 6<CR>", opts)
-map("n", "<Space>6", "<Cmd>BufferGoto 7<CR>", opts)
-map("n", "<Space>7", "<Cmd>BufferGoto 8<CR>", opts)
-map("n", "<Space>8", "<Cmd>BufferGoto 9<CR>", opts)
-map("n", "<Space>-1", "<Cmd>BufferLast<CR>", opts)
+map("n", "<Space>bo", "<Cmd>BufferLinePick<CR>", opts)
+map("n", "<Space>bq", "<Cmd>BufferLinePickClose<CR>", opts)
+map("n", "<Space>bk", "<Cmd>BufferLineCloseOthers<CR>", opts)
+map("n", "<Space>bl", "<Cmd>BufferLineCycleNext<CR>", opts)
+map("n", "<Space>bh", "<Cmd>BufferLineCyclePrev<CR>", opts)
 
 -- cmp
 local cmp = require("cmp")

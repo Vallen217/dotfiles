@@ -90,10 +90,6 @@ return require("packer").startup(function(use)
 			require("neogit").setup()
 		end,
 	})
-	use({ -- buffer tabs
-		"romgrk/barbar.nvim",
-		requires = "nvim-web-devicons",
-	})
 	use({ -- file tree
 		"nvim-tree/nvim-tree.lua",
 		requires = "nvim-web-devicons",
@@ -104,6 +100,11 @@ return require("packer").startup(function(use)
 			require("oil").setup()
 		end,
 		requires = "echasnovski/mini.nvim"
+	})
+	use({
+		'akinsho/bufferline.nvim',
+		tag = "*",
+		requires = ('nvim-tree/nvim-web-devicons'),
 	})
 	use("lewis6991/gitsigns.nvim") -- git integration
 
@@ -198,7 +199,6 @@ return require("packer").startup(function(use)
 	use("dstein64/vim-startuptime") -- display startup time
 
 	--TODO: Add:
-	-- bufferline
 	-- lazy
 
 	-- colorscheme
