@@ -1,2 +1,1 @@
 vim.cmd [[colorscheme eidolon]]
-

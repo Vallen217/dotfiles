@@ -79,9 +79,16 @@ return require("packer").startup(function(use)
 	})
 
 	-- git && file management
-	use({ -- lazy git integration
-		"kdheepak/lazygit.nvim",
-		requires = "nvim-lua/plenary.nvim",
+	use({
+		"NeogitOrg/neogit",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"sindrets/diffview.nvim",
+			"nvim-telescope/telescope.nvim",
+		},
+		config = function()
+			require("neogit").setup()
+		end,
 	})
 	use({ -- buffer tabs
 		"romgrk/barbar.nvim",
@@ -190,9 +197,7 @@ return require("packer").startup(function(use)
 
 	--TODO: Add:
 	-- bufferline
-	-- neogit
 	-- dashboard
-	-- oil
 	-- lazy
 
 	-- colorscheme
