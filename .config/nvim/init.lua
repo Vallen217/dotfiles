@@ -1,6 +1,3 @@
-require("core.packer-config")
-require("core.plugin_config")
-require("core.theme_config")
+require("core.lazy")
 require("core.settings")
 require("core.keymap")
-require("core.mason-lspconfig")

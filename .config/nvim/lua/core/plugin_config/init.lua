@@ -1,7 +1,0 @@
-require("core.plugin_config.auto-completion")
-require("core.plugin_config.diagnostics")
-require("core.plugin_config.formatting")
-require("core.plugin_config.general_tools")
-require("core.plugin_config.git_&_file_management")
-require("core.plugin_config.integrated_visual_aids")
-require("core.plugin_config.syntax_highlighting")
