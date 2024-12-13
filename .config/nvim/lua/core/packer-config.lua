@@ -204,6 +204,7 @@ return require("packer").startup(function(use)
 	-- colorscheme
 	-- use("Vallen217/eidolon.nvim")
 	use("~/Workspace/eidolon.nvim")
+	use("shaunsingh/nord.nvim")
 
 	-- automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
