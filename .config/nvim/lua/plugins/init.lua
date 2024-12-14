@@ -7,6 +7,14 @@ return {
 			vim.cmd [[colorscheme eidolon]]
 		end
 	},
+	-- {
+	-- 	dir = "/home/vallen/Workspace/eidolon.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	config = function()
+	-- 		vim.cmd [[colorscheme eidolon]]
+	-- 	end
+	-- },
 
 	{ -- Auto-pairing
 		'windwp/nvim-autopairs',
@@ -59,7 +67,12 @@ return {
 	},
 
 	-- Colorcolumn
-	{ "lukas-reineke/virt-column.nvim" },
+	{
+		"lukas-reineke/virt-column.nvim",
+		config = function()
+			require("virt-column").setup()
+		end
+	},
 
 	{ -- Snippet engine
 		"L3MON4D3/LuaSnip",
@@ -97,7 +110,12 @@ return {
 	{ "numToStr/Comment.nvim" },
 
 	-- Underline words under the cursor
-	{ "yamatsum/nvim-cursorline" },
+	{
+		"yamatsum/nvim-cursorline",
+		config = function()
+			require("nvim-cursorline").setup()
+		end,
+	},
 
 	-- Notification manager
 	{

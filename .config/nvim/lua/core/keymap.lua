@@ -15,18 +15,6 @@ map("n", "<Space>bk", "<Cmd>BufferLineCloseOthers<CR>", opts)
 map("n", "<Space>bl", "<Cmd>BufferLineCycleNext<CR>", opts)
 map("n", "<Space>bh", "<Cmd>BufferLineCyclePrev<CR>", opts)
 
--- cmp
-local cmp = require("cmp")
-cmp.setup({
-	mapping = cmp.mapping.preset.insert({
-		['<C-h>'] = cmp.mapping.scroll_docs(-4),
-		['<C-l>'] = cmp.mapping.scroll_docs(4),
-		['<C-Space>'] = cmp.mapping.complete(),
-		['<C-e>'] = cmp.mapping.abort(),
-		['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
-	})
-})
-
 -- comments
 map("n", "<Space>ac", "<Plug>(comment_toggle_linewise_current)", opts)
 map("n", "<Space>ab", "<Plug>(comment_toggle_blockwise_current)", opts)
