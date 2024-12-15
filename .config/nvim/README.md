@@ -4,6 +4,12 @@
 <a href="https://dotfyle.com/Vallen217/dotfiles-config-nvim"><img src="https://dotfyle.com/Vallen217/dotfiles-config-nvim/badges/leaderkey?style=flat" /></a>
 <a href="https://dotfyle.com/Vallen217/dotfiles-config-nvim"><img src="https://dotfyle.com/Vallen217/dotfiles-config-nvim/badges/plugin-manager?style=flat" /></a>
 
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_3.png?raw=true)
+
 ## Install Instructions
 
 > Install requires Neovim 0.9+. Always review the code before installing a configuration.
