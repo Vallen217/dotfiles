@@ -9,5 +9,5 @@ return { -- Debug Adapter Protocol
 			"debugpy",
 		},
 		handlers = {},
-	}
+	},
 }

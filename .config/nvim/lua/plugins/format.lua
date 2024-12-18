@@ -11,12 +11,13 @@ return {
 				python = { "isort", "blue" },
 				lua = { "stylua" },
 				sql = { "sql_formatter" },
+				-- FIX: md formatter
+				markdown = { "markdownfmt" },
 				html = { "superhtml" },
 				css = { "prettier" },
 				scss = { "prettier" },
 				yaml = { "prettier" },
 				json = { "prettier" },
-				markdown = { "markdownfmt" },
 			},
 		})
 

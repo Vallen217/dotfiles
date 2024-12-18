@@ -13,21 +13,20 @@ return {
 			-- This setting has no relation with the `automatic_installation` setting.
 			ensure_installed = {
 				-- lsp
-				"bashls",
 				"clangd",
-				"cssls",
-				"dockerls",
-				"html",
-				"jdtls",
-				"jsonls",
-				"lua_ls",
-				"pyright",
+				"bashls",
 				"rust_analyzer",
-				"sqlls",
-				"taplo",
+				"pyright",
+				"lua_ls",
 				"vimls",
-				"lemminx",
+				"sqlls",
+				"cssls",
+				"html",
+				"jsonls",
 				"yamlls",
+				"dockerls",
+				"lemminx",
+				"taplo",
 			},
 
 			-- Whether servers that are set up (via lspconfig) should be automatically installed if they're not already installed.
@@ -56,13 +55,13 @@ return {
 					runtime = {
 						-- Tell the language server which version of Lua you're using
 						-- (most likely LuaJIT in the case of Neovim)
-						version = 'LuaJIT',
+						version = "LuaJIT",
 					},
 					diagnostics = {
 						-- Get the language server to recognize the `vim` global
 						globals = {
-							'vim',
-							'require'
+							"vim",
+							"require",
 						},
 					},
 					workspace = {
@@ -86,5 +85,5 @@ return {
 		lspconfig.sqlls.setup({})
 		lspconfig.vimls.setup({})
 		lspconfig.yamlls.setup({})
-	end
+	end,
 }

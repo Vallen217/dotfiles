@@ -18,7 +18,7 @@ return { -- Start menu
 					TSUpdateSync
 					MasonUpdate
 				]],
-					key = "u"
+					key = "u",
 				},
 				{
 					icon = "󰈔 ",
@@ -54,6 +54,5 @@ return { -- Start menu
 				},
 			},
 		},
-
-	}
+	},
 }

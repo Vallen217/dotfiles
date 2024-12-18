@@ -4,8 +4,8 @@ return {
 		lazy = false,
 		priority = 1000,
 		config = function()
-			vim.cmd [[colorscheme eidolon]]
-		end
+			vim.cmd([[colorscheme eidolon]])
+		end,
 	},
 	-- {
 	-- 	dir = "/home/vallen/Workspace/eidolon.nvim",
@@ -17,26 +17,25 @@ return {
 	-- },
 
 	{ -- Auto-pairing
-		'windwp/nvim-autopairs',
+		"windwp/nvim-autopairs",
 		event = "InsertEnter",
 		config = true,
 	},
 
-	{ -- Git iterface
+	{ -- Git interface
 		"NeogitOrg/neogit",
 		dependencies = {
 			"nvim-lua/plenary.nvim", -- required
 			"sindrets/diffview.nvim", -- optional - Diff integration
 			"nvim-telescope/telescope.nvim", -- optional
 		},
-		config = true
+		config = true,
 	},
 
 	{ -- File tree
 		"nvim-tree/nvim-tree.lua",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
-		opts = {
-		},
+		opts = {},
 	},
 
 	{ -- File manager
@@ -71,16 +70,13 @@ return {
 		"lukas-reineke/virt-column.nvim",
 		config = function()
 			require("virt-column").setup()
-		end
+		end,
 	},
 
 	{ -- Snippet engine
 		"L3MON4D3/LuaSnip",
 		-- follow latest release.
 		version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
-		-- install jsregexp (optional!).
-		build = "make install_jsregexp",
-		"saadparwaiz1/cmp_luasnip",
 	},
 
 	{ -- Keymap popup menu
@@ -88,12 +84,12 @@ return {
 		event = "VeryLazy",
 	},
 
-	{                   -- Display references, definitions and implementations of document symbols
-		'Wansmer/symbol-usage.nvim',
-		event = 'BufReadPre', -- need run before LspAttach if you use nvim 0.9. On 0.10 use 'LspAttach'
+	{ -- Display references, definitions and implementations of document symbols
+		"Wansmer/symbol-usage.nvim",
+		event = "BufReadPre", -- need run before LspAttach if you use nvim 0.9. On 0.10 use 'LspAttach'
 		config = function()
-			require('symbol-usage').setup()
-		end
+			require("symbol-usage").setup()
+		end,
 	},
 
 	{ -- Markdown preview
@@ -104,6 +100,12 @@ return {
 			vim.g.mkdp_filetypes = { "markdown" }
 		end,
 		ft = { "markdown" },
+	},
+
+	{ -- In editor markdown rendering
+		"MeanderingProgrammer/render-markdown.nvim",
+		dependencies = { "nvim-treesitter/nvim-treesitter" },
+		opts = {},
 	},
 
 	-- Comments
@@ -122,6 +124,6 @@ return {
 		"rcarriga/nvim-notify",
 		config = function()
 			vim.notify = require("notify")
-		end
+		end,
 	},
 }

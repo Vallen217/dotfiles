@@ -23,6 +23,8 @@ return {
 				local function try_lint(lint)
 					require("lint").try_lint(lint)
 				end
+
+				try_lint("codespell")
 			end,
 		})
 	end,

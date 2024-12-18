@@ -13,14 +13,14 @@ return { -- Bufferline
 			left_mouse_command = "buffer %d", -- can be a string | function, | false see "Mouse actions"
 			middle_mouse_command = nil, -- can be a string | function, | false see "Mouse actions"
 			indicator = {
-				icon = '▎', -- this should be omitted if indicator style is not 'icon'
-				style = 'icon',
+				icon = "▎", -- this should be omitted if indicator style is not 'icon'
+				style = "icon",
 			},
-			buffer_close_icon = '󰅖',
-			modified_icon = '● ',
-			close_icon = ' ',
-			left_trunc_marker = ' ',
-			right_trunc_marker = ' ',
+			buffer_close_icon = "󰅖",
+			modified_icon = "● ",
+			close_icon = " ",
+			left_trunc_marker = " ",
+			right_trunc_marker = " ",
 			max_name_length = 18,
 			max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
 			truncate_names = true, -- whether or not tab names should be truncated
@@ -57,8 +57,8 @@ return { -- Bufferline
 					filetype = "NvimTree",
 					text = "File Explorer",
 					text_align = "left",
-					separator = true
-				}
+					separator = true,
+				},
 			},
 			color_icons = true, -- whether or not to add the filetype icon highlights
 			get_element_icon = function(element)
@@ -66,8 +66,8 @@ return { -- Bufferline
 				-- This can be used to change how bufferline fetches the icon
 				-- for an element e.g. a buffer or a tab.
 				-- e.g.
-				local icon, hl = require('nvim-web-devicons').get_icon_by_filetype(element.filetype,
-					{ default = false })
+				local icon, hl =
+					require("nvim-web-devicons").get_icon_by_filetype(element.filetype, { default = false })
 				return icon, hl
 			end,
 			show_buffer_icons = true, -- disable filetype icons for buffers
@@ -87,9 +87,9 @@ return { -- Bufferline
 			hover = {
 				enabled = true,
 				delay = 200,
-				reveal = { 'close' }
+				reveal = { "close" },
 			},
-			sort_by = 'directory',
+			sort_by = "directory",
 			pick = {
 				alphabet = "abcdefghijklmopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ1234567890",
 			},
@@ -107,16 +107,16 @@ return { -- Bufferline
 			modified = { fg = "#aaecf8", bg = "#12121f" },
 			pick = { fg = "#8fc8fa", bg = "#12121f" },
 			close_button = { fg = "#444564", bg = "#12121f" },
-			numbers = { fg = "#63668c", bg = "#12121f", },
-			diagnostic = { fg = "#63668c", bg = "#12121f", },
-			hint = { fg = "#88a4f7", bg = "#12121f", },
-			hint_diagnostic = { fg = "#88a4f7", bg = "#12121f", },
-			info = { fg = "#87bff7", sp = "#d4d7ff", bg = "#12121f", },
-			info_diagnostic = { fg = "#87bff7", bg = "#12121f", },
-			warning = { fg = "#aaecf8", bg = "#12121f", },
-			warning_diagnostic = { fg = "#aaecf8", bg = "#12121f", },
-			error = { fg = "#bf4a7f", bg = "#12121f", },
-			error_diagnostic = { fg = "#bf4a7f", bg = "#12121f", },
+			numbers = { fg = "#63668c", bg = "#12121f" },
+			diagnostic = { fg = "#63668c", bg = "#12121f" },
+			hint = { fg = "#88a4f7", bg = "#12121f" },
+			hint_diagnostic = { fg = "#88a4f7", bg = "#12121f" },
+			info = { fg = "#87bff7", sp = "#d4d7ff", bg = "#12121f" },
+			info_diagnostic = { fg = "#87bff7", bg = "#12121f" },
+			warning = { fg = "#aaecf8", bg = "#12121f" },
+			warning_diagnostic = { fg = "#aaecf8", bg = "#12121f" },
+			error = { fg = "#bf4a7f", bg = "#12121f" },
+			error_diagnostic = { fg = "#bf4a7f", bg = "#12121f" },
 
 			buffer_visible = { fg = "#63668c", bg = "#232338" },
 			separator_visible = { fg = "#12121f", bg = "#232338" },
@@ -125,13 +125,13 @@ return { -- Bufferline
 			pick_visible = { fg = "#94aef9", bg = "#232338" },
 			close_button_visible = { fg = "#63668c", bg = "#232338" },
 			numbers_visible = { fg = "#63668c", bg = "#232338" },
-			hint_visible = { fg = "#88a4f7", bg = "#232338", },
-			hint_diagnostic_visible = { fg = "#88a4f7", bg = "#232338", },
+			hint_visible = { fg = "#88a4f7", bg = "#232338" },
+			hint_diagnostic_visible = { fg = "#88a4f7", bg = "#232338" },
 			info_visible = { fg = "#87bff7", bg = "#232338" },
-			info_diagnostic_visible = { fg = "#87bff7", bg = "#232338", },
+			info_diagnostic_visible = { fg = "#87bff7", bg = "#232338" },
 			warning_visible = { fg = "#aaecf8", bg = "#232338" },
 			warning_diagnostic_visible = { fg = "#aaecf8", bg = "#232338" },
-			error_visible = { fg = "#bf4a7f", bg = "#232338", },
+			error_visible = { fg = "#bf4a7f", bg = "#232338" },
 			error_diagnostic_visible = { fg = "#bf4a7f", bg = "#232338" },
 
 			buffer_selected = { fg = "#d4d7ff", bg = "#232338" },
@@ -149,6 +149,6 @@ return { -- Bufferline
 			warning_diagnostic_selected = { fg = "#aaecf8", bg = "#232338", bold = true, italic = true },
 			error_selected = { fg = "#bf4a7f", bg = "#232338", bold = true, italic = true },
 			error_diagnostic_selected = { fg = "#bf4a7f", bg = "#232338", bold = true, italic = true },
-		}
-	}
+		},
+	},
 }

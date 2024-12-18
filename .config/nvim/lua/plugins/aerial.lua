@@ -1,8 +1,8 @@
 return { -- Code outline window
-	'stevearc/aerial.nvim',
+	"stevearc/aerial.nvim",
 	dependencies = {
 		"nvim-treesitter/nvim-treesitter",
-		"nvim-tree/nvim-web-devicons"
+		"nvim-tree/nvim-web-devicons",
 	},
 
 	opts = {
