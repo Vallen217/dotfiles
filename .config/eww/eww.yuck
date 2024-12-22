@@ -1,6 +1,5 @@
 (include "./modules/powermenu/eww.yuck")
 (include "./modules/calendar/eww.yuck")
-(include "./bar/eww.yuck")
 
 (defwindow powermenu
 	:stacking "fg"

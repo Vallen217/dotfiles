@@ -1,4 +1,5 @@
 [global]
+
     ### Display ###
     monitor = 0
 	follow = keyboard
@@ -6,11 +7,11 @@
 
     ### Geometry ###
     width = (0, 300)
-    height = 300
+    height = (0, 300)
 
     origin = top-right
 
-    offset = 10x50
+    offset = (10, 50)
 
     scale = 0
 
@@ -148,7 +149,7 @@
     ### Wayland ###
     # These settings are Wayland-specific. They have no effect when using X11
 
-    # Uncomment this if you want to let notications appear under fullscreen
+    # Uncomment this if you want to let notifications appear under fullscreen
     # applications (default: overlay)
     # layer = top
 
