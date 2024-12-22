@@ -11,9 +11,8 @@ return {
 				python = { "isort", "blue" },
 				lua = { "stylua" },
 				sql = { "sql_formatter" },
-				-- FIX: md formatter
-				markdown = { "markdownfmt" },
-				html = { "superhtml" },
+				markdown = { "prettier" },
+				html = { "prettier" },
 				css = { "prettier" },
 				scss = { "prettier" },
 				yaml = { "prettier" },

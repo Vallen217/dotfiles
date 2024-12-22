@@ -12,8 +12,8 @@ return { -- Auto-completion
 	-- If you use nix, you can build from source using latest nightly rust with:
 	-- build = 'nix run .#build-plugin',
 
-	---@module 'blink.cmp'
-	---@type blink.cmp.Config
+	-- ---@module 'blink.cmp'
+	-- ---@type blink.cmp.Config
 	opts = {
 		snippets = {
 			expand = function(snippet)
