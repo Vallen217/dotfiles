@@ -44,7 +44,7 @@ Screenshots of almost everything as well as their respective links can be found 
 
 ## Active
 
-- Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
+- Terminal: [Wezterm](https://github.com/wezterm/wezterm)
 - IDE: [Neovim](https://github.com/neovim/neovim)
 - File Manager: [Ranger](https://github.com/ranger/ranger)
 - System Monitor: [Bottom](https://github.com/ClementTsang/bottom)
