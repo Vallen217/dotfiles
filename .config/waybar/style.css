@@ -1,0 +1,151 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family:
+    ShureTechMonoNF FontAwesome,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 15px;
+}
+
+/* colors */
+@define-color bg1 #12121f;
+@define-color bg2 #171728;
+@define-color bg3 #1d1d2f;
+@define-color bg4 #222236;
+@define-color bg5 #29293f;
+@define-color fg #d4d7ff;
+@define-color grey1 #4f5071;
+@define-color grey2 #595b7e;
+@define-color grey3 #63658b;
+@define-color green #7ed7c0;
+@define-color yellow #ecdfac;
+@define-color blue #87bff7;
+@define-color ice #aaecf8;
+@define-color purple #9486e4;
+@define-color red #bd4277;
+@define-color lilac #88a4f7;
+
+/* general */
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  color: @fg;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+tooltip {
+  background: @bg1;
+  border: 2px solid @bg3;
+}
+
+tooltip label {
+  color: @fg;
+}
+
+/* modules */
+#mode,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#workspace,
+#window,
+#pulseaudio,
+#network,
+#backlight,
+#clock {
+  padding: 0 8px;
+  background: @bg1;
+  color: @fg;
+  border-radius: 5px;
+}
+
+#battery {
+  border-left: 1px solid @lilac;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#cpu {
+  border-left: 1px solid @ice;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#memory {
+  border-left: 1px solid @red;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#temperature {
+  border-left: 1px solid @blue;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#workspaces {
+  background: @bg1;
+  border-radius: 5px;
+  border-left: 1px solid @blue;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  color: @grey3;
+  /* border-top: 1px solid @blue; */
+}
+
+#workspaces button.active {
+  color: @fg;
+}
+
+#workspaces button:hover {
+  background: @bg1;
+  border: @bg5;
+  color: @grey3;
+}
+
+#window {
+  border-left: 1px solid @green;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#pulseaudio {
+  border-left: 1px solid @lilac;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#network {
+  border-left: 1px solid @ice;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#backlight {
+  border-left: 1px solid @red;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
+
+#clock {
+  border-left: 1px solid @blue;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-right: 1px solid @bg5;
+}
