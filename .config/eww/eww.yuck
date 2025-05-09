@@ -2,9 +2,8 @@
 (include "./modules/calendar/eww.yuck")
 
 (defwindow powermenu
+	:monitor 0
 	:stacking "fg"
-	:windowtype "normal"
-	:wm-ignore true
 	:geometry (geometry
 		:x "-2.6%"
 		:y "58px"
@@ -18,7 +17,8 @@
 (defwidget powermenu_layout []
 	(box :class "powermenu_layout-box"
 		(_powermenu
-			:lockscreen "$HOME/.config/scripts/system/lock.sh"
+			;; :lockscreen "$HOME/.config/scripts/system/lock.sh"
+			:lockscreen "$HOME/.config/scripts/system/hyprland_lock.sh"
 			:suspend "systemctl suspend"
 			:logout "loginctl kill-session self"
 			:reboot "systemctl reboot"
@@ -35,8 +35,6 @@
 (defwindow calendar
     :monitor 0
     :stacking "fg"
-    :windowtype "normal"
-    :wm-ignore true
     :geometry (geometry
 		:x "-18px"
 		:y "58px"
