@@ -129,7 +129,11 @@ config.colors = {
 }
 
 -- font
-config.font = wezterm.font("ShureTechMono NF", { weight = "Regular", stretch = "UltraCondensed" })
+config.font = wezterm.font_with_fallback({
+	"ShureTechMono NF",
+	"JetBrains Mono",
+	"Fira Code",
+})
 
 -- shell
 config.default_prog = { "/bin/fish", "-l" }
@@ -144,5 +148,10 @@ config.window_frame = {
 	active_titlebar_bg = "#12121f",
 	inactive_titlebar_bg = "#12121f",
 }
+
+config.window_background_opacity = 0.75
+
+-- Wezterm won't launch on wayland unless set to false?
+config.enable_wayland = false
 
 return config
