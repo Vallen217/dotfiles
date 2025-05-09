@@ -11,7 +11,7 @@
 
     origin = top-right
 
-    offset = (10, 50)
+    offset = (20, 20)
 
     scale = 0
 

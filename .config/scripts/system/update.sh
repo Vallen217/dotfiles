@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TERMINAL=kitty
+TERMINAL=wezterm
 
 # update system & neovim
 ${TERMINAL} -e fish -c "paru -Syu \

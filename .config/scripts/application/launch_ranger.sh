@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kitty -e fish -c "ranger"
+wezterm -e fish -c "ranger"

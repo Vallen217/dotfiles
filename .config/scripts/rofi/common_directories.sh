@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # replace these with your prefered terminal, editor, and shell.
-TERMINAL=kitty
+TERMINAL=wezterm
 EDITOR=nvim
 SHELL=fish
 
