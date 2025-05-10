@@ -64,45 +64,50 @@ tooltip label {
 
 #battery {
   border-left: 1px solid @lilac;
+  border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #cpu {
   border-left: 1px solid @ice;
+  border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #memory {
   border-left: 1px solid @red;
+  border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #temperature {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 0px;
   border-left: 1px solid @blue;
+  border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #workspaces {
   background: @bg1;
-  border-radius: 5px;
+  margin-left: 25px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border-left: 1px solid @blue;
+  border-right: 1px solid @blue;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #workspaces button {
   padding: 0 5px;
   color: @grey3;
-  /* border-top: 1px solid @blue; */
 }
 
 #workspaces button.active {
@@ -116,36 +121,44 @@ tooltip label {
 }
 
 #window {
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border-left: 1px solid @green;
+  border-right: 1px solid @green;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #pulseaudio {
-  border-left: 1px solid @lilac;
+  padding-left: 12px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid @bg5;
+  border-right: 1px solid @lilac;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #network {
-  border-left: 1px solid @ice;
+  border-left: 1px solid @bg5;
+  border-right: 1px solid @ice;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #backlight {
-  border-left: 1px solid @red;
+  border-left: 1px solid @bg5;
+  border-right: 1px solid @red;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
 
 #clock {
-  border-left: 1px solid @blue;
+  border-left: 1px solid @bg5;
+  border-right: 1px solid @blue;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
-  border-right: 1px solid @bg5;
 }
