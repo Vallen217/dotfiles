@@ -28,6 +28,34 @@
 @define-color lilac #88a4f7;
 
 /* general */
+/*
+.modules-center {
+  background: @bg5;
+  padding: 4px;
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-top: -5px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.modules-right {
+  background: @bg5;
+  padding: 4px;
+  padding-left: 6px;
+  margin-top: -5px;
+  border-bottom-left-radius: 25px;
+}
+
+.modules-left {
+  background: @bg5;
+  padding: 4px;
+  padding-right: 6px;
+  margin-top: -5px;
+  border-bottom-right-radius: 25px;
+}
+*/
+
 window#waybar {
   background-color: rgba(0, 0, 0, 0);
   color: @fg;
@@ -46,7 +74,8 @@ tooltip label {
 
 /* modules */
 #mode,
-#battery,
+#custom-power,
+#disk,
 #cpu,
 #memory,
 #temperature,
@@ -54,7 +83,7 @@ tooltip label {
 #window,
 #pulseaudio,
 #network,
-#backlight,
+#battery,
 #clock {
   padding: 0 8px;
   background: @bg1;
@@ -62,7 +91,14 @@ tooltip label {
   border-radius: 5px;
 }
 
-#battery {
+#custom-power {
+  border-left: 1px solid @green;
+  border-right: 1px solid @bg5;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+}
+
+#disk {
   border-left: 1px solid @lilac;
   border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
@@ -149,7 +185,7 @@ tooltip label {
   border-bottom: 1px solid @bg5;
 }
 
-#backlight {
+#battery {
   border-left: 1px solid @bg5;
   border-right: 1px solid @red;
   border-top: 1px solid @bg5;

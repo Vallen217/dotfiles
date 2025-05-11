@@ -7,7 +7,8 @@
     "spacing": 6, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "battery",
+		"custom/power",
+		"disk",
         "cpu",
         "memory",
         "temperature",
@@ -19,7 +20,7 @@
     "modules-right": [
         "pulseaudio",
         "network",
-        "backlight",
+        "battery",
         "clock#time",
         "clock#date",
 		"custom/calendar"
@@ -41,16 +42,31 @@
             "8": "IIX",
             "9": "IX",
             "10": "X"
-        }
+        },
+		"persistent-workspaces": {
+			"eDP-1": [1,2,3,4,5],
+			"HDMI-A-1": [6,7,8,9,10]
+		}
     },
     "clock#time": {
 		"interval": 6,
-		"format": "󰅐  {:%H:%M}"
+		"format": "󰅐  {:%H:%M}",
+		"tooltip": false
     },
 	"clock#date": {
 		"interval": 60,
-		"format": "{:%d-%m-%Y}"
+		"format": "{:%d-%m-%Y}",
+		"tooltip": false,
+		"on-click": "exec /$HOME/eww/target/release/eww open calendar",
+		"on-click-right": "exec /$HOME/eww/target/release/eww close calendar"
     },
+	"disk": {
+		"interval": 60,
+		"format": "   {path} {free}",
+		"path": "/",
+		"warning": 70,
+		"critical": 90
+	},
     "cpu": {
         "format": "  {usage}%",
         // "tooltip": false
@@ -83,14 +99,17 @@
         "format-full": "{icon} {capacity}%",
         "format-charging": "󰢟  {capacity}%",
         // "format-good": "󱊣 {capacity}%", // An empty format will hide the module
-        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
+		"tooltip": false
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "   {essid} ({signalStrength}%)",
         "format-ethernet": "  {ipaddr}/{cidr} ",
         "format-disconnected": "睊  Disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+		"on-click": "nm-connection-editor",
+		"tooltip": false
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -100,5 +119,11 @@
             "default": "   "
         },
         "on-click": "pavucontrol"
-    }
+    },
+	"custom/power": {
+		"format": "󰐥",
+		"on-click":"exec /$HOME/eww/target/release/eww open powermenu",
+		"on-click-right":"exec /$HOME/eww/target/release/eww close powermenu",
+		"tooltip": false
+	}
 }
