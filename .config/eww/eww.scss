@@ -19,7 +19,7 @@ $red: #bd4277;
 }
 
 * {
-  font-family: 'ShureTechMono Nerd Font';
+  font-family: "ShureTechMono Nerd Font";
 }
 
 // Powermenu
@@ -27,48 +27,58 @@ $red: #bd4277;
   font-size: 2em;
 
   button {
-    padding: .5em;
+    padding: 0.5em;
     border-radius: 25px 5px 25px 5px;
-    background-color: rgba($bg-3, 1.0);
-    color: rgba($fg, 1.0);
+    background-color: rgba($bg-3, 1);
+    color: rgba($fg, 1);
 
     &:nth-child(1) {
       &:hover {
-        transition: 200ms linear background-color, border-radius;
-        color: rgba($blue, 1.0);
-        background-color: rgba($bg-2, 1.0);
+        transition:
+          200ms linear background-color,
+          border-radius;
+        color: rgba($blue, 1);
+        background-color: rgba($bg-2, 1);
       }
     }
 
     &:nth-child(2) {
       &:hover {
-        transition: 200ms linear background-color, border-radius;
+        transition:
+          200ms linear background-color,
+          border-radius;
         color: rgba($blue, 0.9);
-        background-color: rgba($bg-2, 1.0);
+        background-color: rgba($bg-2, 1);
       }
     }
 
     &:nth-child(3) {
       &:hover {
-        transition: 200ms linear background-color, border-radius;
+        transition:
+          200ms linear background-color,
+          border-radius;
         color: rgba($yellow, 0.9);
-        background-color: rgba($bg-2, 1.0);
+        background-color: rgba($bg-2, 1);
       }
     }
 
     &:nth-child(4) {
       &:hover {
-        transition: 200ms linear background-color, border-radius;
+        transition:
+          200ms linear background-color,
+          border-radius;
         color: rgba($red, 0.9);
-        background-color: rgba($bg-2, 1.0);
+        background-color: rgba($bg-2, 1);
       }
     }
 
     &:nth-child(5) {
       &:hover {
-        transition: 200ms linear background-color, border-radius;
+        transition:
+          200ms linear background-color,
+          border-radius;
         color: rgba($red, 0.9);
-        background-color: rgba($bg-2, 1.0);
+        background-color: rgba($bg-2, 1);
       }
     }
   }
@@ -78,14 +88,14 @@ $red: #bd4277;
 .calendar {
   font-size: 22;
   background-color: rgba($bg-1, 0.9);
-  color: rgba($fg, 1.0);
+  color: rgba($fg, 1);
   border-radius: 12px;
   margin: 2px;
   padding: 5px;
 
   &:selected {
-    background-color: rgba($fg, 1.0);
-    color: rgba($bg-1, 1.0);
+    background-color: rgba($fg, 1);
+    color: rgba($bg-1, 1);
     border-radius: 16px;
   }
 
@@ -95,30 +105,30 @@ $red: #bd4277;
 }
 
 .calendar_box {
-  background-color: rgba($bg-3, 1.0);
-  color: rgba($fg, 1.0);
+  background-color: rgba($bg-3, 1);
+  color: rgba($fg, 1);
   // padding: 10px;
   border-radius: 12px;
   margin-top: -8px;
 }
 
 .calendar_layout_box {
-  background-color: rgba($bg-3, 1.0);
+  background-color: rgba($bg-3, 1);
   padding: 18px;
   margin-top: -12px;
 }
 
 .calendar.highlight {
   // background-color: rgba($bg-3, 1.0);
-  color: rgba($fg, 1.0);
+  color: rgba($fg, 1);
   font-weight: bold;
   // border-radius: 22px 22px 0px 0px;
 }
 
 .time_box {
   font-size: 22px;
-  background-color: rgba($bg-1, 1.0);
-  color: rgba($fg, 1.0);
+  background-color: rgba($bg-1, 1);
+  color: rgba($fg, 1);
   margin-top: 5px;
   padding: 6px;
   padding-left: 12px;

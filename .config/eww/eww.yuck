@@ -6,7 +6,7 @@
 	:stacking "fg"
 	:geometry (geometry
 		:x "-2.6%"
-		:y "58px"
+		:y "10px"
 		:width "20%"
 		:height "10%"
 		:anchor "top center"
@@ -36,8 +36,8 @@
     :monitor 0
     :stacking "fg"
     :geometry (geometry
-		:x "-18px"
-		:y "58px"
+		:x "10px"
+		:y "10px"
         :width "15%"
     	:anchor "top right"
     )
