@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": [
 		"custom/power",
-		"disk",
+		"custom/disk-per",
         "cpu",
         "memory",
         "temperature",
@@ -60,6 +60,13 @@
 		"on-click": "exec /$HOME/eww/target/release/eww open calendar",
 		"on-click-right": "exec /$HOME/eww/target/release/eww close calendar"
     },
+	"custom/disk-per": {
+		"interval": 90,
+		"format": "   {}",
+		"exec": "/$HOME/.config/scripts/system/disk_usage.sh",
+		"warning": 70,
+		"critical": 90
+	},
 	"disk": {
 		"interval": 60,
 		"format": "   {path} {free}",

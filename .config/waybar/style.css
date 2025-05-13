@@ -75,6 +75,7 @@ tooltip label {
 /* modules */
 #mode,
 #custom-power,
+#custom-disk-per,
 #disk,
 #cpu,
 #memory,
@@ -93,6 +94,13 @@ tooltip label {
 
 #custom-power {
   border-left: 1px solid @green;
+  border-right: 1px solid @bg5;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+}
+
+#custom-disk-per {
+  border-left: 1px solid @lilac;
   border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
