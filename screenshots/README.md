@@ -1,16 +1,18 @@
 # Screenshots
 
-## Desktop using [i3](https://i3wm.org) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/i3/config)\) and [polybar](https://github.com/polybar/polybar) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/polybar)\)
+## Desktop using [hyprland](https://hyprland.org) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/hypr)\) and [waybar](https://github.com/https://github.com/Alexays/Waybar) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/waybar)\)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/wallpaper.png?raw=true)
 
 ## [Neovim](https://github.com/neovim/neovim) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/nvim)\)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_nvim.png?raw=true)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_2.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_fntr.png?raw=true)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_3.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_telescope.png?raw=true)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_eidolon.png?raw=true)
 
 ## [Spicetify](https://github.com/spicetify) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/spicetify)\)
 
@@ -18,9 +20,9 @@
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/spicetify_ghost_2.png?raw=true)
 
-## [Wezterm](https://github.com/wezterm/wezterm) \([config](https://github.com/Vallen217/dotfiles/tree/main/.wezterm.lua)\) terminals running: [neofetch](https://github.com/dylanaraps/neofetch) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/neofetch/config.conf)\), [ranger](https://github.com/ranger/ranger), and [bottom](https://github.com/ClementTsang/bottom/bottom.toml) \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/bottom/bottom.toml)\)
+## [Wezterm](https://github.com/wezterm/wezterm) \([config](https://github.com/Vallen217/dotfiles/tree/main/.wezterm.lua)\)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/terminals.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
 
 ## [Eww](https://elkowar.github.io/eww/eww.html) powermenu & calendar \([config](https://github.com/Vallen217/dotfiles/tree/main/.config/eww)\)
 

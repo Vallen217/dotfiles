@@ -19,11 +19,11 @@
   </a>
 </p>
 
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/wallpaper.png?raw=true)
+
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_nvim.png?raw=true)
+
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
-
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/neovim_1.png?raw=true)
-
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/misc.png?raw=true)
 
 # Neovim configuration
 
@@ -36,8 +36,8 @@ Screenshots of almost everything as well as their respective links can be found 
 ## Passive
 
 - OS: [Arch, btw](https://wiki.archlinux.org/)
-- WM: [i3](https://i3wm.org)
-- Status Bar: [Polybar](https://github.com/polybar/polybar)
+- WM: [Hyprland](https://hyprland.org)
+- Status Bar: [Waybar](https://github.com/Alexays/Waybar)
 - Shell: [Fish](https://fishshell.com) & [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
 - Compositor: [Picom](https://github.com/yshui/picom)
 - Notifications: [Dunst](https://github.com/dunst-project/dunst)
@@ -58,4 +58,4 @@ Screenshots of almost everything as well as their respective links can be found 
 - Icons: [Kora](https://github.com/bikass/kora)
 - Cursor Theme: [Catppouccin](https://github.com/catppuccin/cursors)
 - Color Palette: [Eidolon](https://github.com/Vallen217/dotfiles/blob/main/color_palette.md)
-- Wallpaper: [Shards](https://github.com/Vallen217/dotfiles/blob/main/wallpaper/shards.png)
+- Wallpaper: [Darkbloom](https://github.com/Vallen217/dotfiles/blob/main/wallpaper/flower_2.jpg)
