@@ -21,7 +21,7 @@
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/wallpaper.png?raw=true)
 
-![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_eidolon.png?raw=true)
+![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/nvim_nvim.png?raw=true)
 
 ![Alt test](https://github.com/Vallen217/dotfiles/blob/main/screenshots/desktop.png?raw=true)
 
