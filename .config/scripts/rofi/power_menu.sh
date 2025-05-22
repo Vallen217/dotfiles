@@ -11,7 +11,7 @@ menu() {
 
 main() {
   CHOICE=$(menu | rofi -dmenu | cut -f1)
-  LOCK="$HOME/.config/scripts/system/lock.sh"
+  LOCK="$HOME/.config/scripts/system/hyprland_lock.sh"
 
   case $CHOICE in
     "lock-screen")
@@ -26,7 +26,7 @@ main() {
       systemctl hibernate
       ;;
     "log-out")
-      "i3-msg exit ; exit"
+      "loginctl kill-session self"
       ;;
     "reboot")
       "systemctl reboot"
