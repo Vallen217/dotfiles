@@ -5,6 +5,11 @@
     Roboto,
     Helvetica,
     Arial,
+    "Noto Sans CJK",
+    "Noto Sans Emoji",
+    "Liberation Sans",
+    "DejaVu Sans",
+    "Source Code Pro",
     sans-serif;
   font-size: 15px;
 }
@@ -79,7 +84,8 @@ tooltip label {
 #disk,
 #cpu,
 #memory,
-#temperature,
+#custom-cpu_temp,
+#custom-gpu_temp,
 #workspace,
 #window,
 #pulseaudio,
@@ -93,8 +99,8 @@ tooltip label {
 }
 
 #custom-power {
-  border-left: 1px solid @green;
-  border-right: 1px solid @bg5;
+  border-left: 1px solid @bg5;
+  border-right: 1px solid @red;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
 }
@@ -118,6 +124,18 @@ tooltip label {
   border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#custom-cpu_temp {
+  margin-left: -3px;
+  border-left: 1px solid @blue;
+  border-right: 1px solid @bg5;
+  border-top: 1px solid @bg5;
+  border-bottom: 1px solid @bg5;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 #memory {
@@ -125,15 +143,20 @@ tooltip label {
   border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
-#temperature {
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 0px;
+#custom-gpu_temp {
+  margin-left: -3px;
   border-left: 1px solid @blue;
   border-right: 1px solid @bg5;
   border-top: 1px solid @bg5;
   border-bottom: 1px solid @bg5;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 #workspaces {

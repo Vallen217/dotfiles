@@ -7,11 +7,11 @@
     "spacing": 6, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-		"custom/power",
 		"custom/disk-per",
         "cpu",
+		"custom/cpu_temp",
         "memory",
-        "temperature",
+		"custom/gpu_temp",
         "hyprland/workspaces"
     ],
     "modules-center": [
@@ -23,7 +23,8 @@
         "battery",
         "clock#time",
         "clock#date",
-		"custom/calendar"
+		"custom/calendar",
+		"custom/power"
     ],
     // Modules configuration
     "hyprland/workspaces": {
@@ -77,19 +78,28 @@
     "cpu": {
         "format": "  {usage}%",
         // "tooltip": false
+		// cpu temp
     },
     "memory": {
         "format": "󰍛  {}%"
     },
-    "temperature": {
-        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-		"hwmon-path-abs": "/sys/devices/platform/asus-ec-sensors/hwmon",
-		"input-filename": "temp2_input",
-        "thermal-zone": 2,
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{icon} {temperatureC}°C ",
-        "format-icons": ["", "", "", "", ""]
+    "custom/cpu_temp": {
+        "interval": 5,
+        "exec": "~/.config/scripts/system/cpu_temp.sh",
+        "format": "{}",
+        // "format": "{icon} {}°C ",
+        // "format-icons": ["", "", "", "", ""]
+		"warning": 70,
+		"critical": 90
+    },
+	"custom/gpu_temp": {
+		"interval": 5,
+        "exec": "~/.config/scripts/system/gpu_temp.sh",
+        "format": "{:1}",
+        // "format": "{icon} {}°C ",
+        // "format-icons": ["", "", "", "", ""]
+		"warning": 50,
+		"critical": 70
     },
     "backlight": {
         // "device": "acpi_video1",
